@@ -26,7 +26,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["robots", "python", "mechanical"]
+tags = ["robotics", "python", "mechanical"]
 
 # Links (optional).
 url_pdf = "https://github.com/nnadeau/pycon-canada-2017"

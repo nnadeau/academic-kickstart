@@ -35,7 +35,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["robots", "neuroscience", "mechanical"]
+tags = ["robotics", "neuroscience", "mechanical"]
 
 # Links (optional).
 url_pdf = "https://www.sfn.org/Annual-Meeting/Neuroscience-2017/Sessions-and-Events/Program/Abstract-PDFs"
