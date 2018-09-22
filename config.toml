@@ -299,3 +299,6 @@ enableGitInfo = false
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
+
+# enable robots/webcrawlers
+enableRobotsTXT = true
