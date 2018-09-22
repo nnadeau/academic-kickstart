@@ -1,11 +1,11 @@
 +++
 title = "Let's Talk About Neurosurgical Veterinary Robotics"
-date = 2016-11-01T09:00:00-04:00
+date = 2016-11-01
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2016-11-01T09:00:00-04:00
+time_start = 2016-11-01T09:00:00
 
 # Abstract and optional shortened version.
 abstract = ""

@@ -1,15 +1,26 @@
 +++
 title = "Domo arigato, Mr. Roboto: Calibrating Robots with Python"
-date = 2017-11-19T11:00:00-04:00  # Schedule page publish date.
+date = 2017-11-19
 draft = false
 
+time_start = 2017-11-19T11:00:00
+
 # Abstract and optional shortened version.
-abstract = ""
+abstract = """
+Modern robotic applications often rely on offline programming to reduce process downtime. In a virtual environment, robot application specialists may program, visualize, and test their robotic application before uploading it to the real production environment, saving time and costs. However, to achieve a high level of fidelity between virtual and production environments, the robot system must be accurate.
+
+Unfortunately, even though most industrial robots are inherently precise (i.e., repeatable), they are not necessarily very accurate. One cost-effective approach to obtaining a more accurate robot is through calibration, where the actual kinematic and non-kinematic parameters of the robot model are identified and improved upon when compared to the nominal model. This talk introduces pybotics, an open-source Python toolbox for robot kinematics and calibration. The talk will feature the following topics:
+
+- An introduction to modern industrial robotics
+- Spatial descriptions and transformations
+- Robot kinematics
+- Robot calibration with pybotics + NumPy + SciPy
+"""
 abstract_short = ""
 
 # Name of event and optional event URL.
 event = "PyCon Canada"
-event_url = "https://2017.pycon.ca"
+event_url = "https://2017.pycon.ca/schedule/53/"
 
 # Location of event.
 location = "Montréal, QC"
@@ -47,15 +58,6 @@ image = ""
 caption = ""
 
 +++
-
-Modern robotic applications often rely on offline programming to reduce process downtime. In a virtual environment, robot application specialists may program, visualize, and test their robotic application before uploading it to the real production environment, saving time and costs. However, to achieve a high level of fidelity between virtual and production environments, the robot system must be accurate.
-
-Unfortunately, even though most industrial robots are inherently precise (i.e., repeatable), they are not necessarily very accurate. One cost-effective approach to obtaining a more accurate robot is through calibration, where the actual kinematic and non-kinematic parameters of the robot model are identified and improved upon when compared to the nominal model. This talk introduces [`pybotics`](https://github.com/nnadeau/pybotics), an open-source Python toolbox for robot kinematics and calibration. The talk will feature the following topics:
-
-- An introduction to modern industrial robotics
-- Spatial descriptions and transformations
-- Robot kinematics
-- Robot calibration with `pybotics` + `NumPy` + `SciPy`
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Why we should calibrate <a href="https://twitter.com/hashtag/robots?src=hash&amp;ref_src=twsrc%5Etfw">#robots</a> and introduction to cool library pyrobotics in <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> via <a href="https://twitter.com/EngNadeau?ref_src=twsrc%5Etfw">@EngNadeau</a> at the <a href="https://twitter.com/pyconca?ref_src=twsrc%5Etfw">@pyconca</a> <a href="https://twitter.com/hashtag/PyConCA2017?src=hash&amp;ref_src=twsrc%5Etfw">#PyConCA2017</a> <a href="https://twitter.com/hashtag/Montreal?src=hash&amp;ref_src=twsrc%5Etfw">#Montreal</a> <a href="https://t.co/wivyNGr8bp">pic.twitter.com/wivyNGr8bp</a></p>&mdash; Abhishek Gupta (@atg_abhishek) <a href="https://twitter.com/atg_abhishek/status/932285250734120960?ref_src=twsrc%5Etfw">November 19, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

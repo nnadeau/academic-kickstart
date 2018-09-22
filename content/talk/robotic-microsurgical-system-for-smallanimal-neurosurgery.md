@@ -1,10 +1,11 @@
 +++
 title = "Characterization of a Robotic Micro-surgical System for Small-animal Neurosurgery"
-date = 2017-11-06T16:00:00-04:00
+date = 2017-11-06
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
+time_start = 2017-11-11T16:00:00
 
 # Abstract and optional shortened version.
 abstract = """

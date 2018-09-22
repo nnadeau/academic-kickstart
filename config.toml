@@ -1,6 +1,6 @@
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://nicholasnadeau.me/"
 
 # Title of your site
 title = "Nicholas Nadeau"
@@ -69,7 +69,7 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 2
+  map = 0
   map_api_key = ""
   latitude = "45.5017"
   longitude = "-73.5673"

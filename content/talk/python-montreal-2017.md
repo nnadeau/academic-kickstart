@@ -1,11 +1,11 @@
 +++
 title = "Domo arigato, Mr. Roboto: Calibrating Robots with Python"
-date = 2017-10-01T06:00:00-04:00  # Schedule page publish date.
+date = 2017-10-01
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2017-10-01T06:00:00-04:00  
+time_start = 2017-10-01T06:00:00
 
 # Abstract and optional shortened version.
 abstract = ""
