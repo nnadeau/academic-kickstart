@@ -38,7 +38,9 @@ This mind flayer uses this plane as a transport hub for its experimental resourc
 The party will need to attack the mind flayer's base of operations to get access to its portal room in order to escape.
 
 ## Awakening
-> The following assumes the party has previously fell into a portal.
+{{% alert note %}}
+The following assumes the party has previously fell into a portal.
+{{% /alert %}}
 
 You wake to find yourselves each alone in a small, dark nook.
 The dark and cold stone surface surround you, just inches from your body and head.
@@ -48,21 +50,19 @@ Looking around, you see the rest of your party also climbing down from their res
 
 As you stand in the chamber, you hear a soft voice in your head.
 
-```text
-Welcome lost ones.
-```
+> Welcome lost ones.
 
 From a dark corner, a disfigured and vile looking creature ([`mindwitness`](http://forgottenrealms.wikia.com/wiki/Mindwitness)), floating in the air, approaches you.
 
-> `Mindwitnesses` are *telepathic hubs* that serve other psionic creatures (e.g., `mind flayers` or `flumphs`).
-> They are not necessarily evil, but rather follow their master.
+{{% alert note %}}
+`Mindwitnesses` are *telepathic hubs* that serve other psionic creatures (e.g., `mind flayers` or `flumphs`).
+They are not necessarily evil, but rather follow their master.
+{{% /alert %}}
 
-```text
-Fear us not, lost ones.
-For you see there was an energetic disturbance and you all fell out of a temporary portal.
-As you were all unconscious, we brought you here to rest.
-Now that you are awake, please follow us to the Great Hall.
-```
+> Fear us not, lost ones.
+> For you see there was an energetic disturbance and you all fell out of a temporary portal.
+> As you were all unconscious, we brought you here to rest.
+> Now that you are awake, please follow us to the Great Hall.
 
 ## The Great Hall
 The Great Hall is a massive cavern filled with glowing mushrooms and well-crafted stonework.
@@ -71,44 +71,44 @@ In what seems to be the center of the cavern, a large glowing orb, similar to a 
 
 Under the glowing orb, several creatures (`flumphs`) may be seen basking in the light.
 
-```text
-These are certainly strange times.
-We assume that you would like to return home?
-Unfortunately, you have come to a terrible place.
-For this place was created by the illithids, or as you may call them, mind flayers.
-We are currently hidden below a fortress, close enough for us to feed, but far enough that they do not bother with our kind.
-Within their fortress lies a great portal.
-This place acts as a transportation hub for their slaves, thralls, and resources.
-If you wish to return home, I am afraid that is the only way out.
-```
+> These are certainly strange times.
+> We assume that you would like to return home?
+> Unfortunately, you have come to a terrible place.
+> For this place was created by the illithids, or as you may call them, mind flayers.
+> We are currently hidden below a fortress, close enough for us to feed, but far enough that they do not bother with our kind.
+> Within their fortress lies a great portal.
+> This place acts as a transportation hub for their slaves, thralls, and resources.
+> If you wish to return home, I am afraid that is the only way out.
 
-> This is where we want to instill a sense of gratitude towards the flumphs.
+{{% alert note %}}
+This is where we want to instill a sense of gratitude towards the flumphs.
+{{% /alert %}}
 
-```text
-Regardless, lost ones, we have taken the liberty of cleaning your equipment, it was quite filthy.
-Come, let us provide you with nourishment.
-```
+> Regardless, lost ones, we have taken the liberty of cleaning your equipment, it was quite filthy.
+> Come, let us provide you with nourishment.
 
-> `Flumphs` communicate telepathically.
-> Though they resemble jellyfish, `flumphs` are sentient beings of great intelligence and wisdom, possessing advanced knowledge of religion, philosophy, mathematics, and countless other subjects.
-> `Flumphs` live in complex and organized groups called cloisters, within which each flumph has a place and purpose.
-> `Flumphs` are sensitive to the emotional states of nearby creatures.
-> If a creature's thoughts suggest goodness, a `flumph` seeks that creature out.
-> When facing creatures that exude evil, a `flumph` flees.
-> `Flumphs` feed by siphoning mental energy from psionic creatures, and they can be found lurking near communities of other psionics.
+{{% alert note %}}
+`Flumphs` communicate telepathically.
+Though they resemble jellyfish, `flumphs` are sentient beings of great intelligence and wisdom, possessing advanced knowledge of religion, philosophy, mathematics, and countless other subjects.
+`Flumphs` live in complex and organized groups called cloisters, within which each flumph has a place and purpose.
+`Flumphs` are sensitive to the emotional states of nearby creatures.
+If a creature's thoughts suggest goodness, a `flumph` seeks that creature out.
+When facing creatures that exude evil, a `flumph` flees.
+`Flumphs` feed by siphoning mental energy from psionic creatures, and they can be found lurking near communities of other psionics.
+{{% /alert %}}
 
 ## Ambush
 As you relax and unwind with these gentle creatures, under the glowing orb, there is a sudden dark silence.
 Then, a piercing migraine overtakes your mind and you hear a voice:
 
-```text
-Time for you to stop hiding.
-```
+> Time for you to stop hiding.
 
 An explosion rips through the great hall.
 The beautiful glowing orb crashes to the ground, its shards shattered but still glowing.
 
-> DEX saving throw (DC10) or receive 1d4 piercing damage from shards
+{{% alert warning %}}
+DEX saving throw (DC10) or receive 1d4 piercing damage from shards
+{{% /alert %}}
 
 Breaches into the cavern are formed where the orb once was.
 The `mindwitness` is crushed by the falling orb.
@@ -117,7 +117,9 @@ From above, floating entities descend ([`grell`](http://forgottenrealms.wikia.co
 Other `flumphs` attempt to flee through the breaches in the wall, but are consumed by a ghastly creatures that ambush their escape.
 A single `flumph` remains, having managed to dodge the tentacles of a floating monster, scared, and flees into a narrow passage in a far wall.
 
-> The party should follow the `flumph` into the passage to protect it.
+{{% alert warning %}}
+The party should follow the `flumph` into the passage to protect it.
+{{% /alert %}}
 
 ## Save the Lone Flumph
 
@@ -126,8 +128,10 @@ The party catches up with the lone `flumph` who is very scared.
 Behind and ahead, the passage is now blocked by two [`gibbering mouthers`](https://roll20.net/compendium/dnd5e/Gibbering%20Mouther)
 A `grell` descends from above.
 
-> The two `gibbering mouthers` are the real threat of this encounter and are designed to troll melee attackers.
-> As they have terrible movement speed, make sure to draw a narrow passage to prevent the party from kiting the enemies.
+{{% alert note %}}
+The two `gibbering mouthers` are the real threat of this encounter and are designed to troll melee attackers.
+As they have terrible movement speed, make sure to draw a narrow passage to prevent the party from kiting the enemies.
+{{% /alert %}}
 
 Loot|Quantity|Description|Unit Value
 ---|---|---|---
@@ -139,11 +143,9 @@ Malachite|1|Opaque striated light and dark green|10 gp
 The lone flumph turns blue.
 In sadness he says:
 
-```text
-My cloister is now dead, I must find a new home.
-Please, allow me to guide you to the exit of this realm.
-You may call me Beta.
-```
+> My cloister is now dead, I must find a new home.
+> Please, allow me to guide you to the exit of this realm.
+> You may call me Beta.
 
 As the party ventures through the crevasse, wisps of faint purple glow can be seen throughout the air.
 An upwards slope towards an exit can be seen up ahead.
@@ -151,10 +153,12 @@ After exiting, you are standing on stony ground with scattered glowing mushrooms
 Above you is just void, the infinite.
 No stars, no light, no distance, just pure blackness.
 
-> An invisible `gray slaad` is now following the group.
-> It is the real reason for these attacks and explosions.
-> Coincidently, the party arrived in the plane while the `slaad` were mounting a cloak-and-dagger attack on the `mind flayer`.
-> Having learned about the party's arrival, the `slaad` now want to use them as pawns and decoys.
+{{% alert warning %}}
+An invisible `gray slaad` is now following the group.
+It is the real reason for these attacks and explosions.
+Coincidently, the party arrived in the plane while the `slaad` were mounting a cloak-and-dagger attack on the `mind flayer`.
+Having learned about the party's arrival, the `slaad` now want to use them as pawns and decoys.
+{{% /alert %}}
 
 Looking ahead, you can make out what appears to be a sort of pyramidal structure outlined in glowing orbs.
 Elsewhere along what you conceive to be the horizon, there is just emptiness.
@@ -176,47 +180,49 @@ Brown, shaggy hair almost fully covers a strong, warm face.
 Glistening black eyes, set sunken within their sockets.
 He stands oddly among others, despite his strong frame.
 
-```text
-Thank the heavens!
-I’m Orion Faley and you must help us!
-There were large explosions!
-Some of the cages nearby were blown open and some of the monsters escaped into the wild!
-They were vile creatures and headed in your direction.
-Are they dead?
-```
+> Thank the heavens!
+> I’m Orion Faley and you must help us!
+> There were large explosions!
+> Some of the cages nearby were blown open and some of the monsters escaped into the wild!
+> They were vile creatures and headed in your direction.
+> Are they dead?
 
-> Orion is actually a shapeshifted `death slaad` and the leader of the offensive operation.
-> He can communicate properly due to `gray and death slaads` innately having the [`tongues`](https://roll20.net/compendium/dnd5e/Tongues#h-Tongues) spell.
+{{% alert warning %}}
+Orion is actually a shapeshifted `death slaad` and the leader of the offensive operation.
+He can communicate properly due to `gray and death slaads` innately having the [`tongues`](https://roll20.net/compendium/dnd5e/Tongues#h-Tongues) spell.
+{{% /alert %}}
 
 Around you, you can see cages of `gibbering mouthers`, `grells`, `quaggoths`, and `troglodytes`.
 Nearby you see some broken cages.
 In one of the cages, the charred remains of what look like human corpses are all that is left behind.
 
-> The `slaad` had blown up the cages, releasing the monsters to attack the `flumph` to draw the party out of hiding.
+{{% alert note %}}
+The `slaad` had blown up the cages, releasing the monsters to attack the `flumph` to draw the party out of hiding.
+{{% /alert %}}
 
 The other prisoners are shouting:
 
-```text
-Fireballs rained down and blew up the cages!
-We are trapped!
-We were kidnapped from our homes and transported here!
-We will be devoured!
-We were transported here by some sort of magic!
-In that structure is where we arrived!
-```
+> Fireballs rained down and blew up the cages!
+> We are trapped!
+> We were kidnapped from our homes and transported here!
+> We will be devoured!
+> We were transported here by some sort of magic!
+> In that structure is where we arrived!
 
-> Use this opportunity to troll your party with low-CR creatures (e.g., `quaggoths`) breaking free from cages (e.g., if they cause too much noise while freeing the prisoners).
+{{% alert warning %}}
+Use this opportunity to troll your party with low-CR creatures (e.g., `quaggoths`) breaking free from cages (e.g., if they cause too much noise while freeing the prisoners).
+{{% /alert %}}
 
-> Perception (DC10) to notice the human cages have no top, just spikes.
-> Climbing up and dropping rope or levitating the prisoners is a valid (and quiet) solution.
+{{% alert warning %}}
+Perception (DC10) to notice the human cages have no top, just spikes.
+Climbing up and dropping rope or levitating the prisoners is a valid (and quiet) solution.
+{{% /alert %}}
 
 Orion after being freed gives the party 1d4 healing potions:
 
-```text
-You look hurt, let me repay you.
-This is all I have left.
-Please let us follow you, we must escape this place.
-```
+> You look hurt, let me repay you.
+> This is all I have left.
+> Please let us follow you, we must escape this place.
 
 Loot|Quantity|Description|Unit Value
 ---|---|---|---
@@ -229,16 +235,23 @@ A long, path lined with obelisks (topped with magical light sources) leads towar
 ### Entrance Corridor
 The party follows the path toward what looks to be an entrance arch.
 
-> `Mind flayers` guard their entrances with illusions.
-> The entrance arch is currently under the effects of [`major image`](https://roll20.net/compendium/dnd5e/Major%20Image#content) and hides two [`ogres`](https://roll20.net/compendium/dnd5e/Ogre) at the ready with javelins.
+{{% alert note %}}
+`Mind flayers` guard their entrances with illusions.
+{{% /alert %}}
+
+{{% alert warning %}}
+The entrance arch is currently under the effects of [`major image`](https://roll20.net/compendium/dnd5e/Major%20Image#content) and hides two [`ogres`](https://roll20.net/compendium/dnd5e/Ogre) at the ready with javelins.
+{{% /alert %}}
 
 ### Cleansing Chambers
 Inside the structure, massive glowing crystal orbs are mounted on onyx columns and light up the entire corridor and engulf everything in a flickering radiance.
 
 Little alcoves are found along this corridor where flesh, hair, and equipment is piled into the corners.
 
-> Freshly captured victims are processed in the cleansing chambers.
-> Their gear is removed and either destroyed or kept if it is of interest, their hair is shaved to prevent parasites, and any sickly ones are disposed of.
+{{% alert note %}}
+Freshly captured victims are processed in the cleansing chambers.
+Their gear is removed and either destroyed or kept if it is of interest, their hair is shaved to prevent parasites, and any sickly ones are disposed of.
+{{% /alert %}}
 
 Loot|Quantity|Description|Unit Value
 ---|---|---|---
@@ -267,17 +280,17 @@ A corridor exits this room.
 ### Transformation and Experimentation Chamber
 The corridor enters into a large chamber with several large crystalline vats filled with mysterious liquid and wretched monstrous forms.
 
-> The transformation chamber contains a number of small cells. 
-> The subjects of promising experiments are kept here, bombarded with psionic energy in an effort to warp their physical development. 
-> Most creatures that undergo this process are turned into twisted, crippled wretches, but a few emerge stronger and tougher than before.
+{{% alert note %}}
+The transformation chamber contains a number of small cells. 
+The subjects of promising experiments are kept here, bombarded with psionic energy in an effort to warp their physical development. 
+Most creatures that undergo this process are turned into twisted, crippled wretches, but a few emerge stronger and tougher than before.
+{{% /alert %}}
 
 A voice booms in your heads 
 
-```text
-Who are you!
-Why have you disturbed my studies!
-Regardless, more fresh brains, thank you for delivering yourselves to me!
-```
+> Who are you!
+> Why have you disturbed my studies!
+> Regardless, more fresh brains, thank you for delivering yourselves to me!
 
 At the opposite end of the room, a humanoid looking squid (`mind flayer arcanist`) appears.
 Several thralls (2x `troglodytes`) burst from the vats.
@@ -301,36 +314,32 @@ At the back of the room is a large black altar.
 Orion goes to look at the portals.
 He looks back at your party and says:
 
-```text
-If a single illith sees you, they all see you. 
-One mind. 
-One nasty, suspicious mind.
-But they will not recognize me...
-It was quite the coincidence how we all arrived here at the same time.
-```
+> If a single illith sees you, they all see you. 
+> One mind. 
+> One nasty, suspicious mind.
+> But they will not recognize me...
+> It was quite the coincidence how we all arrived here at the same time.
 
 Orion walks to the altar and picks up sets of tuning forks. 
 He takes out and taps each fork and purple energy floats from the portals to the forks as the frequency of the forks change. 
 The sound becomes steady and the forks ring throughout the chamber.
 
-```text
-But, this is now my dominion, my stepping stone to the other worlds.
-My original plan was to overtake this portal hub through subterfuge.
-But alas I found you, or rather, the feeble jellyfish found you.
-It was quite trivial you see, faking imprisonment, blowing open the jellyfish’s hideout and getting you to do my dirty work.
-```
+> But, this is now my dominion, my stepping stone to the other worlds.
+> My original plan was to overtake this portal hub through subterfuge.
+> But alas I found you, or rather, the feeble jellyfish found you.
+> It was quite trivial you see, faking imprisonment, blowing open the jellyfish’s hideout and getting you to do my dirty work.
 
 Orion stares at Beta. 
 Beta turns red and backs away.
 
-> Passive perception (DC14) to notice that there is now an extra human with the prisoners (shapeshifted `gray slaad`).
+{{% alert warning %}}
+Passive perception (DC14) to notice that there is now an extra human with the prisoners (shapeshifted `gray slaad`).
+{{% /alert %}}
 
 Orion shapeshifts into a large beast (`slaad` form).
 
-```text
-Now, you have my permission to die. 
-Kill them.
-```
+> Now, you have my permission to die. 
+> Kill them.
 
 The human prisoners begin to scream.
 
@@ -340,11 +349,15 @@ Orian simple vanishes ([`plane shift`](https://roll20.net/compendium/dnd5e/Plane
 
 The extra human reverts to its `grey slaad` form and attacks.
 
-> The remaining human prisoners will act erratically trying to run away.
-> They will be collateral damage.
+{{% alert warning %}}
+The remaining human prisoners will act erratically trying to run away.
+They will be collateral damage.
+{{% /alert %}}
 
-> Label the portals 1-6.
-> Any creature that jumps into a portal will reappear randomly (d6) beside another portal.
+{{% alert warning %}}
+Label the portals 1-6.
+Any creature that jumps into a portal will reappear randomly (d6) beside another portal.
+{{% /alert %}}
 
 Loot|Quantity|Description|Unit Value
 ---|---|---|---
