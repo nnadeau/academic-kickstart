@@ -9,6 +9,8 @@ categories = ["resources"]
 Microsoft Word has great spelling and grammar checking.
 Use [`pandoc`](https://pandoc.org/) to convert the LaTeX document to `docx` and double check your work.
 
+<!--more-->
+
 ```bash
 pandoc INPUT.tex -o OUTPUT.docx
 ```

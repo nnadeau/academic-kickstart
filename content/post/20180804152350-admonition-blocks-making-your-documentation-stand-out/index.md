@@ -8,6 +8,8 @@ categories = ["resources"]
 Documentation doesn't always have to be boring.
 Admonition blocks draw the reader's attention to important notes and warnings that may not directly fit as part of the flow of the text.
 
+<!--more-->
+
 As I often prefer to write long-form reports and documentation in LaTeX, [`awesomebox`](https://ctan.org/tex-archive/graphics/awesomebox) and [`alertmessage`](https://www.ctan.org/pkg/alertmessage) are my go-to packages for admonition blocks.
 Several simple examples may be found below.
 

@@ -16,6 +16,8 @@ categories = ["resources"]
 - Resize columns to data
 - Use consistent precision
 
+<!--more-->
+
 ![LaTeX Table](latex-table.png)
 
 ```latex

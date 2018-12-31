@@ -10,6 +10,8 @@ categories = ["posts"]
 
 See you in Spain!
 
+<!--more-->
+
 ![IROS 2018](iros-2018.jpg)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Happy to announce that <a href="https://twitter.com/ibonev?ref_src=twsrc%5Etfw">@ibonev</a>’s and my paper, “Evolutionary Motion Control Optimization in Physical Human-<a href="https://twitter.com/hashtag/Robot?src=hash&amp;ref_src=twsrc%5Etfw">#Robot</a> Interaction,” has been accepted for publication in <a href="https://twitter.com/iros_2018?ref_src=twsrc%5Etfw">@iros_2018</a>! 😀 See you in Spain 🇪🇸 <a href="https://t.co/Iaofe7YYlZ">pic.twitter.com/Iaofe7YYlZ</a></p>&mdash; Nicholas Nadeau 🇨🇦 🤖 🧠 🐍 (@EngNadeau) <a href="https://twitter.com/EngNadeau/status/1013405623927627776?ref_src=twsrc%5Etfw">July 1, 2018</a></blockquote>

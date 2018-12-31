@@ -9,6 +9,8 @@ categories = ["resources"]
 Spelling and grammar are very important. However, when in a rush, we tend to neglect these important aspects.
 Search engines and humans readers usually don't appreciate content that includes spelling or grammatical errors.
 
+<!--more-->
+
 This notion also applies to your code repository...
 
 As such, let's automatically spell check and fix our codebase with [`misspell`](https://github.com/client9/misspell)!

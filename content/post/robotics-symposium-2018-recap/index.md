@@ -8,6 +8,8 @@ categories = ["posts"]
 
 I recently had the opportunity to attend a great Robotics Symposium presented by [Electromate](https://www.electromate.com/) at [École de technologie supérieure](https://www.etsmtl.ca/). The primary goal of this event was to bring together academia and industry to discuss *how to build a robot*.
 
+<!--more-->
+
 Topics included technical presentations related to the design of robotic system, collaborative robots, SCARA robots, Cartesian robots, parallel robots, and delta robots. More specifically, many of the talks were presented by suppliers and application engineers of the actual components used for robot design. With this in mind, there was a big focus on mechanical and electrical design, control, and component sizing and selection.
 
 Overall, it was a very interesting day and provided a practical understanding of the core motion control technology used in robotic applications. The slides from the talks are embedded below and may also [be found here](https://www.authorstream.com/Electromate/).

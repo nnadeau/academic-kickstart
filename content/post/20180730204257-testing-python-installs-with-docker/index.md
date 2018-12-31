@@ -10,6 +10,8 @@ Package management is hard.
 Sometimes in Python package development, your local (development) environment may behave a little differently than a deployment target.
 Below is a simple method I use to replicate a clean environment and test Python package installs and tests.
 
+<!--more-->
+
 ```bash
 docker run -v `pwd`:`pwd` -w `pwd` python pip install .
 docker run -v `pwd`:`pwd` -w `pwd` python python setup.py install

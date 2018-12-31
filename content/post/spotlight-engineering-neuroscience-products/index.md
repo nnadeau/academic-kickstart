@@ -10,6 +10,8 @@ Rogue Research is an engineering innovation company that develops systems that r
 
 Over 450 laboratories around the world use their Brainsight line of products for applications such as cognitive neuroscience, rehabilitation research, and veterinary services.
 
+<!--more-->
+
 Rogue Research Brainsight family of neuronavigation products can be thought of as a GPS, but instead of a vehicle traveling, they are used to guide something called Transcranial Magnetic Stimulation.
 
 Protocase has been working with Rogue Research over the past three years to provide high-quality sheet metal components for several of their products and internal prototypes.

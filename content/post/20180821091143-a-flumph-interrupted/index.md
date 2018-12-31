@@ -13,6 +13,8 @@ My intention for the adventure was to target specific party weaknesses, specific
 - Tanks always rushing in
 - Bear barbarian not being resistant to psychic damage
 
+<!--more-->
+
 As such, the adventure is designed to troll melee attackers and tempt casters to waste their slots on low-level creatures before facing the final battles.
 There should be no long rests.
 

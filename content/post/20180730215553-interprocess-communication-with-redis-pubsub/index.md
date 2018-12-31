@@ -11,6 +11,8 @@ Many methods work best when only using a single programming language, while othe
 Simplicity is key and [Redis](https://redis.io/) is an efficient solution.
 Redis is an open-source in-memory database project implementing a distributed, in-memory key-value store.
 
+<!--more-->
+
 ## Start Redis Server
 We will be using a Docker Redis container to run the Redis server.
 
