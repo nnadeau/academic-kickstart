@@ -39,6 +39,17 @@ enableGitInfo = false
 [params]
   color_theme = "default"
   font = "default"
+  day_night = true
+
+  # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+  sharing_image = "portrait.jpg"
+
+  # Twitter username (without @). Used when a vistor shares your site on Twitter.
+  twitter = "EngNadeau"
+
+  # Diplay a logo in navigation bar rather than title (optional).
+  #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+  logo = "icon-192.png"
 
   # Your details.
   name = "Nicholas Nadeau"
