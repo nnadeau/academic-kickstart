@@ -71,6 +71,6 @@ caption = ""
 
 +++
 
-![Evolutionary Motion Control](/img/kuka-evo (1).gif)
+![Evolutionary Motion Control](kuka-evo (1).gif)
 
-![Evolutionary Motion Control](/img/kuka-evo (4).gif)
+![Evolutionary Motion Control](kuka-evo (4).gif)

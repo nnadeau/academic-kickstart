@@ -16,6 +16,6 @@ Ultimately, Rogue and Nicholas determined that manufacturing a robotic arm in-ho
 
 "Now I'm working on a variety of projects with Rogue Research, including a surgical robot for small animals. Accelerate has allowed me to apply my interest in robotics to an industry challenge - now I'm working on several."
 
-![Neuronavigation](/img/nick-brainsight.jpg)
+![Neuronavigation](nick-brainsight.jpg)
 
 Via [Mitacs](https://www.mitacs.ca/en/newsroom/success-story/robotic-arm-aid-mental-health-treatment)

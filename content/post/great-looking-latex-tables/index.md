@@ -16,7 +16,7 @@ categories = ["resources"]
 - Resize columns to data
 - Use consistent precision
 
-![LaTeX Table](/img/latex-table.png)
+![LaTeX Table](latex-table.png)
 
 ```latex
 \documentclass{article}

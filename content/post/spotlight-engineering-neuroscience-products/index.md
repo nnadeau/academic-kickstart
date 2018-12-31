@@ -16,6 +16,6 @@ Protocase has been working with Rogue Research over the past three years to prov
 
 At Protocase, we are proud to have the opportunity to work with Rogue Research to provide high-quality, fully finished sheet metal parts, machined parts, and enclosures for the companys exciting new engineering projects.
 
-![Medical Device](/img/3d-01-copper.jpg)
+![Medical Device](3d-01-copper.jpg)
 
 Via [Protocase](https://www.protocase.com/about/spotlight/rogue-research/)

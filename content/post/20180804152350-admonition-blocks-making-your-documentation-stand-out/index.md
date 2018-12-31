@@ -42,4 +42,4 @@ Several simple examples may be found below.
 ```
 
 ## Tip Box
-![Tip Box](/img/tipbox.png)
+![Tip Box](tipbox.png)
