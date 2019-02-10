@@ -24,10 +24,14 @@ weight = 1
   course = "B.Eng. in Mechanical & Biomedical Engineering"
   institution = "McGill University"
   year = 2014
- 
+
 +++
 
 # Bio
 
-Nicholas Nadeau is a senior R&D Engineer at AON3D and a PhD candidate at École de technologie supérieure.
-He is a professional engineer (P.Eng.), member of the Ordre des ingénieurs du Québec (OIQ), and an associate value specialist (AVS).
+Hi! I'm Nicholas Nadeau.
+
+I'm a professional engineer (P.Eng.), member of the Ordre des ingénieurs du Québec (OIQ), and an associate value specialist (AVS).
+I've spent the last decade creating unique technologies for the biomedical, robotics, and additive manufacturing domains.
+
+I'm currently the Engineering Manager at AON3D and a PhD candidate at École de technologie supérieure.

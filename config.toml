@@ -53,12 +53,12 @@ enableGitInfo = false
 
   # Your details.
   name = "Nicholas Nadeau"
-  role = "Senior R&D Engineer"
+  role = "Engineering Manager"
   description = "Research and development, machine learning, python, c++, robotics, engineering"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ 
+  organizations = [
     { name = "AON3D", url = "https://www.aon3d.com/" } ,
     ]
 
@@ -222,42 +222,42 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fab"
     link = "//github.com/nnadeau"
-  
+
   [[params.social]]
     icon = "gitlab"
     icon_pack = "fab"
     link = "//gitlab.com/nnadeau"
-  
+
   [[params.social]]
     icon = "instagram"
     icon_pack = "fab"
     link = "//instagram.com/engnadeau"
-  
+
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fab"
     link = "//linkedin.com/in/nicholas-nadeau-p-eng-avs-02092832"
-  
+
   [[params.social]]
     icon = "youtube"
     icon_pack = "fab"
     link = "//youtube.com/c/NicholasNadeau"
-  
+
   [[params.social]]
     icon = "orcid"
     icon_pack = "ai"
     link = "//orcid.org/0000-0003-1220-0889"
-  
+
   [[params.social]]
     icon = "researchgate"
     icon_pack = "ai"
     link = "//researchgate.net/profile/Nicholas_Nadeau"
-  
+
   [[params.social]]
     icon = "mendeley"
     icon_pack = "ai"
     link = "//mendeley.com/profiles/nicholas-nadeau"
-  
+
   [[params.social]]
     icon = "publons"
     icon_pack = "ai"
