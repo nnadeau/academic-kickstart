@@ -5,10 +5,11 @@ tags = ['bash']
 categories = ["resources"]
 +++
 
+A simple bash for-loop for convert many images at once.
+
+<!--more-->
 
 ```bash
 for i in *.png ; do convert "$i" "${i%.*}.jpg" ; done
 ```
 - `convert`: convert between image formats using ImageMagick
-
-A simple bash for-loop for convert many images at once.
