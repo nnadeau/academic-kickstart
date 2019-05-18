@@ -76,7 +76,7 @@ interests = [
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://linkedin.com/in/nicholas-nadeau-p-eng-avs-02092832"
+  link = "https://www.linkedin.com/in/nicholas-nadeau-peng-avs-02092832/"
 
 [[social]]
   icon = "youtube"
@@ -87,16 +87,6 @@ interests = [
   icon = "orcid"
   icon_pack = "ai"
   link = "https://orcid.org/0000-0003-1220-0889"
-
-[[social]]
-  icon = "researchgate"
-  icon_pack = "ai"
-  link = "https://researchgate.net/profile/Nicholas_Nadeau"
-
-[[social]]
-  icon = "mendeley"
-  icon_pack = "ai"
-  link = "https://mendeley.com/profiles/nicholas-nadeau"
 
 [[social]]
   icon = "publons"
