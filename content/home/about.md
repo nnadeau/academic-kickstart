@@ -1,37 +1,13 @@
 +++
-# About/Biography widget.
-widget = "about"
-active = true
+# About widget.
+widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 20  # Order that this section will appear in.
 
-# Order that this section will appear in.
-weight = 1
+title = "Biography"
 
-# List your academic interests.
-[interests]
-  interests = [
-    "Research & Development",
-    "Robotics & Automation",
-    "Biomedical Engineering",
-    "Additive Manufacturing"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD Candidate in Precision/Collaborative Robotics"
-  institution = "École de technologie supérieure"
-
-[[education.courses]]
-  course = "B.Eng. in Mechanical & Biomedical Engineering"
-  institution = "McGill University"
-  year = 2014
-
+# Choose the user profile to display
+# This should be the username of a profile in your `content/author/` folder.
+author = "admin"
 +++
-
-# Bio
-
-Hi! I'm Nicholas Nadeau.
-
-I'm a professional engineer (P.Eng.), member of the Ordre des ingénieurs du Québec (OIQ), and an associate value specialist (AVS).
-I've spent the last decade creating unique technologies for the biomedical, robotics, and additive manufacturing domains.
-
-I'm currently the Engineering Manager at AON3D and a PhD candidate at École de technologie supérieure.
