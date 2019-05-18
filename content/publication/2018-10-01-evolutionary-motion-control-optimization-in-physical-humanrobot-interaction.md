@@ -42,6 +42,9 @@ projects = []
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = []
 
+# Digital Object Identifier (DOI)
+doi = "10.1109/IROS.2018.8593598"
+
 # Links (optional).
 url_pdf = "https://ieeexplore.ieee.org/document/8593598"
 url_preprint = ""
