@@ -9,7 +9,7 @@ time_start = 2017-10-01T06:00:00
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = ""
+summary = ""
 
 # Name of event and optional event URL.
 event = "Montréal-Python 67: Ultramodern Vintage - PyCon Canada Special"

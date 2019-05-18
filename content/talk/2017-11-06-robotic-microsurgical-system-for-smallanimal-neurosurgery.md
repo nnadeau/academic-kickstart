@@ -15,7 +15,7 @@ Here we present the characterization of a robotic micro-surgical system for smal
 
 This system removes the error-prone human component from surgical procedures, allowing for a more effective and efficient surgery, with the goal of improving surgical success rate, throughput, and experiment replicability.
 """
-abstract_short = ""
+summary = ""
 
 # Name of event and optional event URL.
 event = "Society for Neuroscience"

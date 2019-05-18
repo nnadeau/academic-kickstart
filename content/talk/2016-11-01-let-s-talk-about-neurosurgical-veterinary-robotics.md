@@ -9,7 +9,7 @@ time_start = 2016-11-01T09:00:00
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = ""
+summary = ""
 
 # Name of event and optional event URL.
 event = "Society for Neuroscience 2016"
