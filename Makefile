@@ -1,10 +1,10 @@
 .PHONY: serve build post
 
 serve:
-	hugo serve
+	hugo serve --gc --minify
 
 build: 
-	hugo
+	hugo --gc --minify
 
 post:
 	pipenv run -- python scripts/hugo_new.py post
