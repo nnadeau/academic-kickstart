@@ -45,14 +45,8 @@ math = false
 # Does the content use source code highlighting?
 highlight = true
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
 +++
 
-![Evolutionary Motion Control](https://res.cloudinary.com/nicholasnadeau/image/upload/v1549748468/kuka-evo_1.gif)
+![Evolutionary Motion Control](kuka-evo_1.gif)
 
-![Evolutionary Motion Control](https://res.cloudinary.com/nicholasnadeau/image/upload/v1549748471/kuka-evo_4.gif)
+![Evolutionary Motion Control](kuka-evo_4.gif)

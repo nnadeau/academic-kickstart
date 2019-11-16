@@ -42,6 +42,3 @@ Several simple examples may be found below.
 
 \end{document}
 ```
-
-## Tip Box
-![Tip Box](https://res.cloudinary.com/nicholasnadeau/image/upload/v1549748449/tipbox.png)
