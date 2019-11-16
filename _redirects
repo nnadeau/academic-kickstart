@@ -1,2 +1,8 @@
-# Redirect default Netlify subdomain to primary domain
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://www.nicholasnadeau.com/* https://nicholasnadeau.me/:splat 301!
+https://nicholasnadeau.com/* https://nicholasnadeau.me/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
 https://competent-panini-00973b.netlify.com/* https://nicholasnadeau.me/:splat 301!
