@@ -44,42 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = """
-3d printer
-3d printer filament
-3d printing
-3d printing companies
-3d printing materials
-3d printing service
-3d printing technology
-research
-additive manufacturing
-biomedical engineering
-c++
-cpp
-development
-electrical engineering
-engineer
-engineering
-large 3d printer
-machine learning
-machine learning algorithms
-manager
-mechanical
-mechanical engineering
-python
-python code
-python language
-rapid prototyping
-robot
-robotic arm
-robotics
-software
-startup
-tech
-technology
-"""
-
+description = ""
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
