@@ -18,8 +18,6 @@ categories = ["resources"]
 
 <!--more-->
 
-![LaTeX Table](https://res.cloudinary.com/nicholasnadeau/image/upload/v1549748449/latex-table.png)
-
 ```latex
 \documentclass{article}
 

@@ -44,12 +44,6 @@ math = false
 # Does the content use source code highlighting?
 highlight = true
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-#image = "sfn-2016.jpg"
-#caption = "I recently had the opportunity to present my latest work with Rogue Research Inc. at the Society for Neuroscience (SFN) 2016 conference."
-
 +++
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Let&#39;s talk about <a href="https://twitter.com/hashtag/robotics?src=hash">#robotics</a> <a href="https://twitter.com/hashtag/robot?src=hash">#robot</a> <a href="https://twitter.com/hashtag/neuroscience?src=hash">#neuroscience</a> <a href="https://twitter.com/hashtag/surgery?src=hash">#surgery</a> <a href="https://twitter.com/hashtag/science?src=hash">#science</a> <a href="https://twitter.com/hashtag/sfn16?src=hash">#sfn16</a> booth 433 <a href="https://t.co/pIU5bC1718">pic.twitter.com/pIU5bC1718</a></p>&mdash; Nicholas Nadeau (@EngNadeau) <a href="https://twitter.com/EngNadeau/status/798607719066255360">November 15, 2016</a></blockquote>

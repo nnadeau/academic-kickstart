@@ -1,7 +1,13 @@
+# Configuration of Academic
+# Documentation: https://sourcethemes.com/academic/
+#
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
+
 # Title of your site
 title = "Nicholas Nadeau"
 
-# The URL of your website.
+# The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://nicholasnadeau.me/"
 
@@ -9,8 +15,9 @@ baseurl = "https://nicholasnadeau.me/"
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; {year}"
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-60125866-2"
+############################
+## Advanced options below ##
+############################
 
 # Name of theme folder in `themes/`.
 theme = "hugo-academic"
@@ -22,42 +29,40 @@ enableGitInfo = true
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
+removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
 
 [outputs]
-home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-section = [ "HTML", "RSS" ]
+  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
+  section = [ "HTML", "RSS" ]
 
 [mediaTypes."application/manifest+json"]
-suffixes = ["webmanifest"]
+  suffixes = ["webmanifest"]
 
 [outputFormats.WebAppManifest]
-mediaType = "application/manifest+json"
-rel = "manifest"
+  mediaType = "application/manifest+json"
+  rel = "manifest"
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
-hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
-smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
-angledQuotes = false
-latexDashes = true
-extensions = ["backslashLineBreak"]
+  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+	angledQuotes = false
+	latexDashes = true
+  extensions = ["backslashLineBreak"]
 
 [imaging]
-resampleFilter = "lanczos"
-quality = 90
-anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+  resampleFilter = "lanczos"
+  quality = 90
+  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
 # Taxonomies.
 [taxonomies]
-tag = "tags"
-category = "categories"
-publication_type = "publication_types"
-author = "authors"
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+  author = "authors"
