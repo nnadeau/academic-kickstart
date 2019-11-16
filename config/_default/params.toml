@@ -10,9 +10,11 @@ theme = "minimal"
 # Enable users to switch between day and night mode?
 day_night = true
 
-# Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+# Override the theme's font set (optional).
+#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = """
@@ -91,17 +93,9 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "nicholas@aon3d.com"
+email = ""
 phone = ""
-address = """
-AON3D
-<br>
-600-9494 St Laurent Blvd
-<br>
-Montreal, QC
-<br>
-H2N 1P4
-"""
+address = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
