@@ -13,7 +13,7 @@ copyright = "&copy; {year}"
 googleAnalytics = "UA-60125866-2"
 
 # Name of theme folder in `themes/`.
-theme = "academic"
+theme = "hugo-academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = true
