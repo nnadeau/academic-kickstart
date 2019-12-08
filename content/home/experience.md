@@ -36,6 +36,15 @@ date_format = "Jan 2006"
   description = ""
 
 [[experience]]
+  title = "Consulting CTO"
+  company = "YPC Technologies"
+  company_url = "https://www.ypc-technologies.com/"
+  location = "Montreal"
+  date_start = "2017-12-01"
+  date_end = "2018-11-01"
+  description = ""
+
+[[experience]]
   title = "R&D Engineer"
   company = "Rogue Research Inc."
   company_url = "https://www.rogue-research.com/"
