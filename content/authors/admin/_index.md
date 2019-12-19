@@ -35,8 +35,9 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD Candidate in Precision/Collaborative Robotics"
+  course = "Ph.D. in Precision/Collaborative Robotics"
   institution = "École de technologie supérieure"
+  year = 2019
 
 [[education.courses]]
   course = "B.Eng. in Mechanical & Biomedical Engineering"
@@ -76,7 +77,7 @@ interests = [
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/nicholas-nadeau-peng-avs-02092832/"
+  link = "https://www.linkedin.com/in/engnadeau"
 
 [[social]]
   icon = "youtube"
@@ -101,9 +102,9 @@ interests = [
   link = "https://nnadeau.github.io/cv/"
 +++
 
-Hi! 
+Hi!
 I'm Nicholas Nadeau.
 
 I'm currently the head of engineering at AON3D where I lead design, development, and R&D in both software and hardware to drive product innovation.
-I am a professional engineer (P.Eng.), member of the Ordre des ingénieurs du Québec (OIQ), and an associate value specialist (AVS).
+I am a professional engineer (P.Eng.), Doctor of Philosophy (Ph.D.), member of the Ordre des ingénieurs du Québec (OIQ), and an associate value specialist (AVS).
 I have spent the last decade creating unique technologies for the biomedical, cognitive neuroscience, robotics, and additive manufacturing domains.
