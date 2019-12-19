@@ -1,9 +1,10 @@
 .PHONY: serve build post publications format-publications
 
 serve:
+	hugo version
 	hugo serve --gc --minify
 
-build: 
+build:
 	hugo --gc --minify
 
 post:
