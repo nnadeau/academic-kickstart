@@ -102,9 +102,13 @@ interests = [
   link = "https://nnadeau.github.io/cv/"
 +++
 
-Hi!
-I'm Nicholas Nadeau.
+<!-- make sure "description" in config/_default/params.toml is also updated -->
 
-I'm currently the head of engineering at AON3D where I lead design, development, and R&D in both software and hardware to drive product innovation.
-I am a professional engineer (P.Eng.), Doctor of Philosophy (Ph.D.), member of the Ordre des ingénieurs du Québec (OIQ), and an associate value specialist (AVS).
-I have spent the last decade creating unique technologies for the biomedical, cognitive neuroscience, robotics, and additive manufacturing domains.
+Nicholas Nadeau is the head of engineering at [AON3D](https://www.aon3d.com/) where he leads design, development, and R&D in both software and hardware to drive product innovation.
+
+He is a professional engineer (P.Eng.) and member of the Ordre des ingénieurs du Québec (OIQ).
+Nicholas received his Ph.D. from [École de technologie supérieure](http://en.etsmtl.ca/Unites-de-recherche/CoRo/Accueil?lang=en-CA) where his research combined machine learning and collaborative robotics to develop methods for safe robotic freehand medical ultrasound.
+
+When he isn’t putting out fires, he enjoys trying to automate everything through scripts and becoming more flexible through yoga.
+
+He has spent the last decade creating unique technologies for the biomedical, cognitive neuroscience, robotics, and additive manufacturing domains.
