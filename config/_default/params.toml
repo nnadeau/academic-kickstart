@@ -44,7 +44,16 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = """
+Nicholas Nadeau is the head of engineering at [AON3D](https://www.aon3d.com/) where he leads design, development, and R&D in both software and hardware to drive product innovation.
+
+He is a professional engineer (P.Eng.) and member of the Ordre des ingénieurs du Québec (OIQ).
+Nicholas received his Ph.D. from [École de technologie supérieure](http://en.etsmtl.ca/Unites-de-recherche/CoRo/Accueil?lang=en-CA) where his research combined machine learning and collaborative robotics to develop methods for safe robotic freehand medical ultrasound.
+
+When he isn’t putting out fires, he enjoys trying to automate everything through scripts and becoming more flexible through yoga.
+
+He has spent the last decade creating unique technologies for the biomedical, cognitive neuroscience, robotics, and additive manufacturing domains.
+"""
 
 ############################
 ## Site Features
