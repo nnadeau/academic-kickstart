@@ -1,17 +1,16 @@
-.PHONY: serve build post publications format-publications
-
+.PHONY: serve
 serve:
 	hugo version
 	hugo serve --gc --minify
 
+.PHONY: build
 build:
 	hugo --gc --minify
 
-post:
-	pipenv run -- python scripts/hugo_new.py post
-
-publications:
+.PHONY: publications
+publications: format-publications
 	pipenv run -- academic import --bibtex publications.bib
 
+.PHONY: format-publications
 format-publications:
 	bibtool -s publications.bib -o publications.bib
