@@ -1,12 +1,8 @@
-import subprocess
-import datetime
 import logging
-from pathlib import Path
-from string import ascii_lowercase, digits, printable, whitespace
-import argparse
+import subprocess
+from string import ascii_lowercase, digits, whitespace
 
-ROOT_DIR = Path(__file__).parents[1]
-CONTENT_DIR = ROOT_DIR / "content"
+import fire
 
 
 def sanitize_fname(s: str):
@@ -15,34 +11,34 @@ def sanitize_fname(s: str):
     s = filter(lambda x: x in valid, s)
     s = "".join(s)
     s = s.split()
-    s = "_".join(s)
+    s = "-".join(s)
     return s
+
+
+def new_post():
+    new_content("post")
+
+
+def get_title():
+    title = input(">>> Note title: ")
+    logging.info(f"Title: {title}")
+    return title
+
+
+def new_content(kind: str):
+    # get title
+    title = get_title()
+    title = sanitize_fname(title)
+
+    path = f"{kind}/{title}/index.md"
+    cmd = ["hugo", "new", path]
+    logging.info(f"Hugo command: {cmd}")
+    subprocess.run(cmd)
 
 
 if __name__ == "__main__":
     # set logging
     logging.basicConfig(level=logging.INFO)
 
-    # get args
-    parser = argparse.ArgumentParser()
-    parser.add_argument("category")
-    args = parser.parse_args()
-
-    # get title
-    title = input(">>> Note title: ")
-    logging.info(f"Title: {title}")
-
-    # get timestamp
-    date = datetime.datetime.now()
-    date = date.strftime("%Y-%m-%d")
-
-    # get filename
-    fname = sanitize_fname(title)
-    fname = f"{date}_{fname}"
-    logging.info(f"Filename: {fname}")
-
-    # create content
-    path = f"{args.category}/{fname}/index.md"
-    cmd = ["hugo", "new", path]
-    logging.info(f"Hugo command: {cmd}")
-    subprocess.run(cmd)
+    # run clio
+    fire.Fire()

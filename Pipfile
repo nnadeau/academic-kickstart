@@ -10,6 +10,7 @@ isort = "*"
 rope = "*"
 
 [packages]
+fire = "*"
 
 [requires]
 python_version = "3.7"
