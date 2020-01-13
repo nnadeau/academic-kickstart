@@ -14,3 +14,7 @@ publications: format-publications
 .PHONY: format-publications
 format-publications:
 	bibtool -s publications.bib -o publications.bib
+
+.PHONY: post
+post:
+	pipenv run python scripts/hugo_new.py new_post
