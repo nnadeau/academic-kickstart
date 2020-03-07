@@ -4,10 +4,17 @@ Personal website, portfolio, and blog.
 
 ## Usage
 
+### New Post
+
 ```bash
 # new post
 hugo new post/abc-xyz.md
 ```
+
+### New Publication
+
+- Add bib entry to [`publications.bib`](publications.bib)
+- Run `make publications`
 
 ## Tips
 
