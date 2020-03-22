@@ -23,10 +23,11 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
+    "Additive Manufacturing",
+    "Biomedical Engineering",
+    "Machine Learning",
     "Research & Development",
     "Robotics & Automation",
-    "Biomedical Engineering",
-    "Additive Manufacturing",
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -35,7 +36,7 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ph.D. in Precision/Collaborative Robotics"
+  course = "Ph.D. in Collaborative Robotics and Machine Learning"
   institution = "École de technologie supérieure"
   year = 2019
 
