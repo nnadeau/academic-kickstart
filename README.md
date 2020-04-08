@@ -10,7 +10,23 @@ Personal website, portfolio, and blog.
 
 ```bash
 # new post
+make post
+
+# or
 hugo new post/abc-xyz.md
+
+# or (will make a page bundle)
+hugo new post/abc-xyz
+```
+
+### Build and Serve Site
+
+```bash
+# build site
+make build
+
+# build, serve, and watch site with web server
+make serve
 ```
 
 ### New Publication
