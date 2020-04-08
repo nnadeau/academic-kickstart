@@ -13,11 +13,6 @@
   url = "#posts"
   weight = 20
 
-# [[main]]
-#   name = "Projects"
-#   url = "#projects"
-#   weight = 30
-
 [[main]]
   name = "Talks"
   url = "#talks"
@@ -28,8 +23,11 @@
   url = "#publications"
   weight = 40
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 60
+
 [[main]]
    name = "CV"
    url = "https://nnadeau.github.io/cv/"
