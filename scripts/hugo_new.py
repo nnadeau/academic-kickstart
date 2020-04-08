@@ -40,5 +40,5 @@ if __name__ == "__main__":
     # set logging
     logging.basicConfig(level=logging.INFO)
 
-    # run clio
+    # run cli
     fire.Fire()
