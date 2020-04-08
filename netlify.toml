@@ -8,3 +8,12 @@ HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+[[plugins]]
+package = "netlify-plugin-subfont"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
