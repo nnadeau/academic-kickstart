@@ -15,24 +15,20 @@ def sanitize_fname(s: str):
     return s
 
 
-def new_post():
-    new_content("post")
-
-
 def get_title():
     title = input(">>> Note title: ")
     logging.info(f"Title: {title}")
     return title
 
 
-def new_content(kind: str):
+def new(kind: str):
     # get title
     title = get_title()
     title = sanitize_fname(title)
 
-    path = f"{kind}/{title}/index.md"
+    path = f"{kind}/{title}"
     cmd = ["hugo", "new", path]
-    logging.info(f"Hugo command: {cmd}")
+    logging.info(f"Hugo command: {' '.join(cmd)}")
     subprocess.run(cmd)
 
 

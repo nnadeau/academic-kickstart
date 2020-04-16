@@ -17,4 +17,8 @@ format-publications:
 
 .PHONY: post
 post:
-	pipenv run python scripts/hugo_new.py new_post
+	pipenv run python scripts/hugo_new.py new post
+
+.PHONY: talk
+talk:
+	pipenv run python scripts/hugo_new.py new talk
