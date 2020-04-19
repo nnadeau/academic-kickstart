@@ -5,7 +5,7 @@ title: "Python Tips: Combining Iterables Through Round Robin"
 subtitle: ""
 summary: ""
 authors: ["contestant", "cycle", "iterables", "nexts", "participant", "portion", "python", "robin", "roundrobin"]
-tags: [python,]
+tags: ["contestant", "cycle", "iterables", "nexts", "participant", "portion", "python", "robin", "roundrobin"]
 categories: []
 date: 2020-04-03T07:03:06-04:00
 lastmod: 2020-04-03T07:03:06-04:00

@@ -5,7 +5,7 @@ title: "Ph.D. Defence: Officially Dr Nick"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["adventure", "development", "information", "journey", "photos", "ref", "technologie", "towards", "ultrasound","phd"]
 categories: []
 date: 2020-01-15T16:13:49-05:00
 lastmod: 2020-01-15T16:13:49-05:00
