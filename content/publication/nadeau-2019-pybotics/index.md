@@ -9,7 +9,7 @@ featured: false
 publication: "*Journal of Open Source Software*"
 url_pdf: "http://dx.doi.org/10.21105/joss.01738"
 doi: "10.21105/joss.01738"
-tags: ["python", "robotics", "automation", "kinematics", "geometry", "optimization",]
+tags: ["python", "robotics", "automation", "kinematics", "geometry", "optimization","application", "automation", "cartesian", "concepts", "dynamics", "efficacy", "environment", "generations", "geometry", "interface", "joint", "kinematics", "modern", "nadeau", "nicholas", "open", "optimization", "process", "production", "pybotics", "python", "robotics", "safety", "simulation", "software", "specialists", "toolbox", "trajectory", "ur10"]
 ---
 
 ![UR10 Joint Motion](ur10_joint.gif)

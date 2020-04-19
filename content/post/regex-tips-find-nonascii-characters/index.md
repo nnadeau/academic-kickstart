@@ -5,7 +5,7 @@ title: "Regex Tips: Find non-ASCII Characters"
 subtitle: ""
 summary: ""
 authors: []
-tags: [regex,python]
+tags: ["abcdef", "ascii", "characters", "object", "python", "regex", "span", "tips", "x7f"]
 categories: []
 date: 2020-04-03
 lastmod: 2020-04-03T10:24:16-04:00

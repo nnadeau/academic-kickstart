@@ -5,7 +5,7 @@ title: "Des milliers de visières fabriquées grâce à l’impression 3D"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["aon3d", "chain", "company", "demand", "face", "hospitals", "market", "nadeau", "new", "nicholas", "officer", "picture", "printer", "product", "profession", "shields", "shortage", "thousands", "visors", "week", "york","covid"]
 categories: []
 date: 2020-04-15T16:58:57-04:00
 lastmod: 2020-04-15T16:58:57-04:00

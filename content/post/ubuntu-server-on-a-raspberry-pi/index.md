@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: []
 tags: []
-categories: []
+categories: ["bash", "device", "fail2ban", "hostname", "raspberry", "ssh", "sudo", "ubuntu"]
 date: 2020-01-13
 featured: false
 draft: false

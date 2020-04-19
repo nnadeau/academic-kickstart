@@ -17,6 +17,6 @@ abstract: |
 
 featured: false
 publication: "École de technologie supérieure"
-tags: ["adaptive systems", "calibration", "evolutionary computation", "force control", "human-robot interaction", "medical robotics", "motion control", "optimization", "robot control", "robot kinematics", "robotics", "trajectory optimization", "ultrasonic imaging"]
+tags: ["adaptive systems", "calibration", "evolutionary computation", "force control", "human-robot interaction", "medical robotics", "motion control", "optimization", "robot control", "robot kinematics", "robotics", "trajectory optimization", "ultrasonic imaging","accuracy", "behaviour", "body", "calibration", "classification", "environment", "framework", "motion", "optimization", "robotics", "study", "system", "ultrasound"]
 url_pdf: "http://espace.etsmtl.ca/id/eprint/2461"
 ---

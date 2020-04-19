@@ -5,7 +5,7 @@ title: "Dev Tip: Quickly Share Files with Python and ngrok"
 subtitle: ""
 summary: ""
 authors: []
-tags: [ngrok, python]
+tags: ["bash", "hostname", "ngrok", "port", "python", "server", "web"]
 categories: []
 date: 2020-04-06T07:42:59-04:00
 lastmod: 2020-04-06T07:42:59-04:00
