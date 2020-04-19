@@ -5,7 +5,7 @@ draft = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["python"]
+tags = ["bash", "cprofile", "cumtime", "ncalls", "percall", "pyprof2calltree", "python", "snakeviz", "tottime"]
 categories = ["resources"]
 
 # Featured image

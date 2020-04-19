@@ -1,7 +1,7 @@
 +++
 title = "Neuroscience 2017"
 date = 2017-08-13T00:00:00
-tags = ['robots', 'neuroscience']
+tags = ["async", "attendee", "convention", "guess", "ideas", "marketplace", "nadeau", "neuroscience", "nicholas", "robots", "script", "tool", "walter", "washington"]
 categories = ["posts"]
 +++
 

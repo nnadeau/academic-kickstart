@@ -1,7 +1,7 @@
 +++
 title = "Testing Python Packages with Docker"
 date = 2018-07-30T20:42:57
-tags = ['devops', 'bash', 'python']
+tags = ["bash", "container", "deployment", "development", "devops", "docker", "environment", "first", "management", "method", "packages", "pwd", "python", "resources"]
 categories = ["resources"]
 +++
 

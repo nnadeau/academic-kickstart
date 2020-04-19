@@ -5,7 +5,7 @@ draft = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["engineering","3dprinting","startup"]
+tags = ["accelerometer", "aon3d", "creators", "gyroscope", "new", "opportunities", "peek", "pekk", "picture", "press", "printers", "startup", "thermoplastics", "ultem"]
 categories = ["posts","press"]
 +++
 

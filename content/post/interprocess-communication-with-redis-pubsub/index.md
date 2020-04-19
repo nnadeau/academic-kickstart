@@ -1,7 +1,7 @@
 +++
 title = "Interprocess Communication with Redis"
 date = 2018-07-30T21:55:53
-tags = ['devops', 'bash', 'python', 'docker', 'redis', 'ipc']
+tags = ["bash", "channel", "container", "data", "interface", "ipc", "json", "message", "none", "pattern", "pubsub", "python", "redis", "world"]
 categories = ["resources"]
 +++
 

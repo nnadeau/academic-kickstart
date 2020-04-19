@@ -1,7 +1,7 @@
 +++
 title = "Spotlight: Engineering Neuroscience Products"
 date = 2016-08-22T00:00:00
-tags = ['robots', 'neuroscience']
+tags = ["brainsight", "company", "neuroscience", "products", "protocase", "quality", "research", "rogue", "sheet"]
 categories = ["posts"]
 +++
 

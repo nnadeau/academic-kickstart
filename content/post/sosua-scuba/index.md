@@ -8,7 +8,7 @@ authors = []
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["travel","scuba"]
+tags = ["dominican", "republic", "scuba"]
 categories = ["posts"]
 
 # Featured image
@@ -23,7 +23,7 @@ preview = true
 
 +++
 
-Sosúa is a town in Puerto Plata Province, on the north coast of the Dominican Republic. 
+Sosúa is a town in Puerto Plata Province, on the north coast of the Dominican Republic.
 It's known for Sosúa Beach, in a sheltered cove with an offshore coral reef, tropical fish and colourful plants.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/25EAZzYg4v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

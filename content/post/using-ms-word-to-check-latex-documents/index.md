@@ -1,7 +1,7 @@
 +++
 title = "Using MS Word to Check LaTeX Documents"
 date = 2018-07-30T21:04:52
-tags = ['latex', 'phd']
+tags = ["bash", "check", "documents", "docx", "grammar", "microsoft", "pandoc", "phd", "resources", "word"]
 categories = ["resources"]
 +++
 

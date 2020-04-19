@@ -1,7 +1,7 @@
 +++
 title = "Robotic Arm to Aid with Mental Health Treatment"
 date = 2016-05-13T00:00:00
-tags = ['robots', 'neuroscience']
+tags = ["accuracy", "aid", "arm", "canada", "challenge", "company", "complement", "depression", "feature", "health", "house", "illness", "industry", "mental", "mitacs", "neuroscience", "nicholas", "research", "result", "robotic", "rogue", "schizophrenia", "settings", "software", "solution", "tms", "treatment", "variety"]
 categories = ["posts"]
 +++
 

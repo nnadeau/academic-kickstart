@@ -5,7 +5,7 @@ draft = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["bash", "devops", "rpi"]
+tags = ["bash", "boot", "connectivity", "dev", "device", "listenaddress", "login", "openssh", "passwd", "password", "port", "raspberry", "root", "ssh", "sudo", "user123"]
 categories = ["resources"]
 
 # Featured image

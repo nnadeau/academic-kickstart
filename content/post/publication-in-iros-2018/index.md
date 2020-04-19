@@ -1,7 +1,7 @@
 +++
 title = "Publication in the Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018)"
 date = 2018-07-01T09:44:46
-tags = ['robots', 'conference', 'phd', 'science']
+tags = ["async", "control", "evolutionary", "ieee", "intelligent", "interaction", "international", "iros", "madrid", "motion", "optimization", "physical", "proceedings", "robots", "rsj", "script", "spain", "systems"]
 categories = ["posts"]
 +++
 

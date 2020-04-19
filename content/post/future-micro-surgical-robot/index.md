@@ -1,7 +1,7 @@
 +++
 title = "Future Micro-surgical Robot!"
 date = 2016-05-13T00:00:00
-tags = ['robots', 'neuroscience', 'python']
+tags = ["async", "mecademic", "neuroscience", "python", "robot", "script", "twitter-tweet", "utf-8"]
 categories = ["posts"]
 +++
 

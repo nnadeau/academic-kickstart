@@ -30,7 +30,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["python","robotics","mechanical"]
+tags = ["application", "calibration", "canada", "environment", "kinematics", "math", "production", "pybotics", "pycon", "python", "robots", "special", "ultramodern", "vintage"]
 
 # Links (optional).
 url_pdf = ""

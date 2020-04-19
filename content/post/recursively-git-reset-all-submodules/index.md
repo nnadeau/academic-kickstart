@@ -1,7 +1,7 @@
 +++
 title = "Recursively Git Reset All Submodules"
 date = 2018-06-14T00:00:00
-tags = ['devops', 'bash', 'git']
+tags = ["bash", "command", "devops", "foreach", "reset", "resources", "state", "submodule"]
 categories = ["resources"]
 +++
 

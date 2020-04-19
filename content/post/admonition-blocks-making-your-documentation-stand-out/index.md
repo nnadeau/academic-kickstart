@@ -1,7 +1,7 @@
 +++
 title = "Admonition Blocks: Making Your Documentation Stand Out"
 date = 2018-08-04T15:23:50
-tags = ['phd', 'latex', 'mechanical', 'engineering']
+tags = ["documentation", "admonition", "awesomebox", "alertmessage", "usepackage", "latex", "xelatex"]
 categories = ["resources"]
 +++
 
