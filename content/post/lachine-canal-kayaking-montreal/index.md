@@ -2,7 +2,7 @@
 title = "Lachine Canal Kayaking, Montréal"
 date = 2018-06-25T00:00:00
 tags = ["boroughs", "canada", "canal", "island", "kilometre", "lachine", "lake", "lasalle", "old", "port", "quebec"]
-categories = ["posts"]
+categories = []
 +++
 
 

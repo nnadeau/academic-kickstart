@@ -2,7 +2,7 @@
 title = "Admonition Blocks: Making Your Documentation Stand Out"
 date = 2018-08-04T15:23:50
 tags = ["documentation", "admonition", "awesomebox", "alertmessage", "usepackage", "latex", "xelatex"]
-categories = ["resources"]
+categories = []
 +++
 
 Documentation doesn't always have to be boring.

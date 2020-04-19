@@ -2,7 +2,7 @@
 title = "Big Parenthesis in a LaTeX Equation"
 date = 2018-06-25T22:13:30
 tags = ["latex", "equation", "parenthesis", "phd", "resources"]
-categories = ["resources"]
+categories = []
 +++
 
 

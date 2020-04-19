@@ -2,7 +2,7 @@
 title = "Robotics Symposium 2018 Recap"
 date = 2018-04-06T00:00:00
 tags = ["electromate", "javascript", "language", "none", "pid", "presentation", "robotics", "script", "siteurl", "target", "var"]
-categories = ["posts"]
+categories = []
 +++
 
 

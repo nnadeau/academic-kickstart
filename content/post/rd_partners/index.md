@@ -6,7 +6,7 @@ draft = false
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["accelerometer", "aon3d", "creators", "gyroscope", "new", "opportunities", "peek", "pekk", "picture", "press", "printers", "startup", "thermoplastics", "ultem"]
-categories = ["posts","press"]
+categories = []
 +++
 
 Meet [AON3D](https://www.aon3d.com), the creators of 3D printers for high-end thermoplastics, including [PEEK](https://www.aon3d.com/3d-printing-peek/), [PEKK](https://www.aon3d.com/3d-printing-pekk/), [ULTEM™](https://www.aon3d.com/3d-printing-ultem-9085/), and [more](https://www.aon3d.com/3d-printing-peek-pekk-ultem-webinar/).

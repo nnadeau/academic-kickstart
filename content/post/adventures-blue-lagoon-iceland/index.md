@@ -2,7 +2,7 @@
 title = "Adventures: Blue Lagoon, Iceland"
 date = 2018-06-25T00:00:00
 tags = ["lagoon", "iceland", "blue", "home", "world", "place", "power", "seawater", "spa", "journey"]
-categories = ["posts"]
+categories = []
 +++
 
 

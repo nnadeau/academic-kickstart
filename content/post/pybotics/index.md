@@ -2,7 +2,7 @@
 title = "Pybotics"
 date = 2018-05-01T00:00:00
 tags = ["div", "medium", "nnadeau", "pybotics", "python", "robot", "script", "tools"]
-categories = ["tools"]
+categories = []
 +++
 
 

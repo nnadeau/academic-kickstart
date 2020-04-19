@@ -2,7 +2,7 @@
 title = "Great Looking LaTeX Tables"
 date = 2018-06-25T22:13:30
 tags = ["data", "document", "midrule", "numbers", "precision", "resizebox", "tables", "toprule", "usepackage"]
-categories = ["resources"]
+categories = []
 +++
 
 - No colour

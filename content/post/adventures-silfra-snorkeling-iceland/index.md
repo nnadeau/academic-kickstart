@@ -2,7 +2,7 @@
 title = "Adventures: Silfra Snorkeling, Iceland"
 date = 2018-06-25T00:00:00
 tags = ["silfra", "iceland", "rift", "boundary", "american", "plate", "þingvallavatn", "lake", "þingvellir", "park", "fissure", "crack", "hall", "lagoon"]
-categories = ["posts"]
+categories = []
 +++
 
 

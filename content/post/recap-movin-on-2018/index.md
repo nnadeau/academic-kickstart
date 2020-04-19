@@ -2,7 +2,7 @@
 title = "Recap: Movin' On 2018"
 date = 2018-06-25T11:11:11
 tags = ["bertrand", "concept", "environment", "government", "incentive", "mobility", "movin", "piccard", "policy", "protection", "recap", "sector", "sustainable", "unit"]
-categories = ["posts"]
+categories = []
 +++
 
 

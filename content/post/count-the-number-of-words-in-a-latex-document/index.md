@@ -2,7 +2,7 @@
 title = "Count the Number of Words in a LaTeX Document"
 date = 2018-06-14T00:00:00
 tags = ["bash", "byte", "character", "command", "count", "log", "number", "output", "record", "resources", "word","latex"]
-categories = ["resources"]
+categories = []
 +++
 
 

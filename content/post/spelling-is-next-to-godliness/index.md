@@ -2,7 +2,7 @@
 title = "Spelling Is Next to Godliness"
 date = 2018-08-07T13:12:00
 tags = ["bash", "bin", "change", "codebase", "correction", "devops", "examples", "godliness", "grammar", "humans", "issue", "keras", "libraries", "localization", "maintainer", "misspell", "next", "notion", "numpy", "overwrite", "package", "phd", "reader", "repository", "requests", "resources", "rush", "science", "tensorflow"]
-categories = ["resources"]
+categories = []
 +++
 
 

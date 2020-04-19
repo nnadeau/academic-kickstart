@@ -2,7 +2,7 @@
 title = "Adventures: Thingvellir + Geysir, Iceland"
 date = 2018-06-25T00:00:00
 tags = ["geysir", "geyser", "iceland", "þingvellir", "park", "thingvellir", "adventures", "reykjavík", "iceland's", "parliament", "church", "ruin", "stone", "rift", "valley", "separation", "plate", "cliffs", "fissure", "almannagjá", "fault", "great", "european", "english", "word"]
-categories = ["posts"]
+categories = []
 +++
 
 

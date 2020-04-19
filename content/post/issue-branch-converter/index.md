@@ -2,7 +2,7 @@
 title = "Issue-Branch Converter"
 date = 2018-01-01T00:00:00
 tags = ["converter", "devops", "div", "medium", "nnadeau", "script", "tools"]
-categories = ["tools"]
+categories = []
 +++
 
 

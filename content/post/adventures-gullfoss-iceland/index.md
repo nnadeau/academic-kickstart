@@ -2,7 +2,7 @@
 title = "Adventures: Gullfoss, Iceland"
 date = 2018-06-25T00:00:00
 tags = ["gullfoss", "iceland", "waterfall", "canyon", "hvítá", "river", "attraction", "adventures"]
-categories = ["posts"]
+categories = []
 +++
 
 

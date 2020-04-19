@@ -5,8 +5,8 @@ title: "Ubuntu Server on a Raspberry Pi"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
-categories: ["bash", "device", "fail2ban", "hostname", "raspberry", "ssh", "sudo", "ubuntu"]
+tags: ["bash", "device", "fail2ban", "hostname", "raspberry", "ssh", "sudo", "ubuntu"]
+categories: []
 date: 2020-01-13
 featured: false
 draft: false

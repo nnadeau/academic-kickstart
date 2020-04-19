@@ -2,7 +2,7 @@
 title = "Convert Images in a Directory"
 date = 2018-06-14T00:00:00
 tags = ["images", "bash", "resources", "loop", "formats", "imagemagick"]
-categories = ["resources"]
+categories = []
 +++
 
 A simple bash for-loop for convert many images at once.
