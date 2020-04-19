@@ -24,7 +24,7 @@ all_day: true
 publishDate: 2020-04-16T13:36:33-04:00
 
 authors: []
-tags: []
+tags: ["accomplishments", "additive", "age", "council", "developer", "dyndrite", "industry", "initiative", "leaders", "life", "members", "product", "world"]
 
 # Is this a featured talk? (true/false)
 featured: false
