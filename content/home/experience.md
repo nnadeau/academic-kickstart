@@ -24,7 +24,9 @@ date_format = "Jan 2006"
   location = "Montréal"
   date_start = "2019-02-01"
   date_end = ""
-  description = ""
+  description = """
+  <img style="width:256px" src="img/logo-aon.png" />
+  """
 
 [[experience]]
   title = "Senior R&D Engineer"
@@ -33,7 +35,9 @@ date_format = "Jan 2006"
   location = "Montréal"
   date_start = "2018-08-27"
   date_end = "2019-02-01"
-  description = ""
+  description = """
+  <img style="width:256px" src="img/logo-aon.png" />
+  """
 
 [[experience]]
   title = "Consulting CTO"
@@ -42,7 +46,9 @@ date_format = "Jan 2006"
   location = "Montréal"
   date_start = "2017-12-01"
   date_end = "2018-11-01"
-  description = ""
+  description = """
+  <img style="width:256px" src="img/logo-ypc.png" />
+  """
 
 [[experience]]
   title = "R&D Engineer"
@@ -51,6 +57,8 @@ date_format = "Jan 2006"
   location = "Montréal"
   date_start = "2011-04-01"
   date_end = "2019-08-27"
-  description = ""
+  description = """
+  <img style="width:256px" src="img/logo-rogue.png" />
+  """
 
 +++
