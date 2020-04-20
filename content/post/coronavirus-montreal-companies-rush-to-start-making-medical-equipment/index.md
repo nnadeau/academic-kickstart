@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Coronavirus: Montreal Companies Rush to Start Making Medical Equipment"
+title: "Coronavirus: Montréal Companies Rush to Start Making Medical Equipment"
 subtitle: ""
 summary: ""
 authors: []
@@ -30,4 +30,4 @@ projects: []
 
 > “This has been a whirlwind two weeks,” Nicholas Nadeau, head of engineering at AON3D, said Friday in a telephone interview. “First we had to learn to become a virtual company, and now we’ve pivoted the company into a medical equipment manufacturer.”
 
-[Source: Montreal Gazette](https://montrealgazette.com/business/local-business/pivot-now-montreal-companies-rush-to-start-making-medical-equipment/wcm/a899c9e2-adcc-4329-82c4-0a8f6708ab20/)
+[Source: Montréal Gazette](https://montrealgazette.com/business/local-business/pivot-now-montreal-companies-rush-to-start-making-medical-equipment/wcm/a899c9e2-adcc-4329-82c4-0a8f6708ab20/)
