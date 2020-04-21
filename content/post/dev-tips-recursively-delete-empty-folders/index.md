@@ -5,7 +5,7 @@ title: "Tip of the Day: Recursively Delete Empty Folders"
 subtitle: ""
 summary: "Stuck with many nested folders, some of which may be empty?"
 authors: []
-tags: []
+tags: ["bash", "empty", "folders", "tip"]
 categories: []
 date: 2020-04-21T07:57:14-04:00
 lastmod: 2020-04-21T07:57:14-04:00
