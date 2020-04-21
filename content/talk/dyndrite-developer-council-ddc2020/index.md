@@ -46,9 +46,9 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides:
+url_slides: "slides/2020-04-21_ddc2020.pdf"
 url_code:
-url_pdf:
+url_pdf: "slides/2020-04-21_ddc2020.pdf"
 url_video:
 
 # Markdown Slides (optional).
