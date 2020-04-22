@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Dev Tips: README Template With Title Image"
+title: "Tip of the Day: Markdown README Template With Title Image"
 subtitle: ""
 summary: "By using a mixture of HTML and Markdown, we can create a nice, simple `README` file that looks aesthetically pleasing to the eye."
 authors: []
-tags: ["alt", "badge", "felis", "ipsum", "label", "readme"]
+tags: ["alt", "badge", "felis", "ipsum", "label", "readme", "markdown"]
 categories: []
 date: 2020-04-20T07:31:23-04:00
 lastmod: 2020-04-20T07:31:23-04:00

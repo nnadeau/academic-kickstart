@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Dev Tip: Quickly Share Files with Python and ngrok"
+title: "Tip of the Day: Quickly Share Files with Python and ngrok"
 subtitle: ""
 summary: ""
 authors: []

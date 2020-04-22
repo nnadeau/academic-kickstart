@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Python Tips: Combining Iterables Through Round Robin"
+title: "Tip of the Day: Combining Iterables in Python Through Round Robin"
 subtitle: ""
 summary: ""
-authors: ["contestant", "cycle", "iterables", "nexts", "participant", "portion", "python", "robin", "roundrobin"]
+authors: []
 tags: ["contestant", "cycle", "iterables", "nexts", "participant", "portion", "python", "robin", "roundrobin"]
 categories: []
 date: 2020-04-03T07:03:06-04:00

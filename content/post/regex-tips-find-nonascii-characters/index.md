@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Regex Tips: Find non-ASCII Characters"
+title: "Tip of the Day: Find non-ASCII Characters with Regex"
 subtitle: ""
 summary: ""
 authors: []
