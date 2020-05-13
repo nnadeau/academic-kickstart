@@ -23,6 +23,8 @@ post:
 talk:
 	pipenv run python scripts/hugo_new.py new talk
 
+.PHONY: optimize
+optimize: optimize-featured-size optimize-jpg optimize-png
 
 FEATURED_IMAGES := $(shell find content -iname "featured.*")
 .PHONY: optimize-featured-size
