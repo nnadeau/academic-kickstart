@@ -28,18 +28,21 @@ optimize: optimize-featured-size optimize-jpg optimize-png
 
 FEATURED_IMAGES := $(shell find content assets static -iname "featured.*")
 .PHONY: optimize-featured-size
-optimize-featured-size: $(FEATURED_IMAGES)
-	mogrify -resize 1024x $?
+optimize-featured-size:
+	for F in $(FEATURED_IMAGES) ; do \
+		mogrify -resize 1024x $$F ; \
+	done
 
 JPG_IMAGES := $(shell find content assets static -iname "*.jpg")
 .PHONY: optimize-jpg
-optimize-jpg: $(JPG_IMAGES)
-	jpegoptim -s $?
+optimize-jpg:
 
 PNG_IMAGES := $(shell find content assets static -iname "*.png")
 .PHONY: optimize-png
-optimize-png: $(PNG_IMAGES)
-	optipng $?
+optimize-png:
+	for F in $(PNG_IMAGES) ; do \
+		optipng $$F ; \
+	done
 
 # test google lighthouse metrics
 .PHONY: lighthouse
@@ -49,7 +52,6 @@ lighthouse:
 .PHONY: lighthouse-local
 lighthouse-local:
 	lighthouse http://localhost:1313/ --view
-
 
 # test netlify pipeline
 .PHONY: netlify-build
