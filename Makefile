@@ -26,17 +26,17 @@ talk:
 .PHONY: optimize
 optimize: optimize-featured-size optimize-jpg optimize-png
 
-FEATURED_IMAGES := $(shell find content -iname "featured.*")
+FEATURED_IMAGES := $(shell find content assets static -iname "featured.*")
 .PHONY: optimize-featured-size
 optimize-featured-size: $(FEATURED_IMAGES)
 	mogrify -resize 1024x $?
 
-JPG_IMAGES := $(shell find content -iname "*.jpg")
+JPG_IMAGES := $(shell find content assets static -iname "*.jpg")
 .PHONY: optimize-jpg
 optimize-jpg: $(JPG_IMAGES)
 	jpegoptim -s $?
 
-PNG_IMAGES := $(shell find content -iname "*.png")
+PNG_IMAGES := $(shell find content assets static -iname "*.png")
 .PHONY: optimize-png
 optimize-png: $(PNG_IMAGES)
 	optipng $?
