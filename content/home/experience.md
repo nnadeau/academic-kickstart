@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2019-02-01"
   date_end = ""
   description = """
-  <img style="width:256px" src="img/logo-aon.png" />
+  <img style="width:256px" src="img/logo-aon.png" alt="AON3D Logo"/>
   """
 
 [[experience]]
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   date_start = "2018-08-27"
   date_end = "2019-02-01"
   description = """
-  <img style="width:256px" src="img/logo-aon.png" />
+  <img style="width:256px" src="img/logo-aon.png" alt="AON3D Logo"/>
   """
 
 [[experience]]
@@ -47,7 +47,7 @@ date_format = "Jan 2006"
   date_start = "2017-12-01"
   date_end = "2018-11-01"
   description = """
-  <img style="width:256px" src="img/logo-ypc.png" />
+  <img style="width:256px" src="img/logo-ypc.png" alt="YPC Logo"/>
   """
 
 [[experience]]
@@ -58,7 +58,7 @@ date_format = "Jan 2006"
   date_start = "2011-04-01"
   date_end = "2019-08-27"
   description = """
-  <img style="width:256px" src="img/logo-rogue.png" />
+  <img style="width:256px" src="img/logo-rogue.png" alt="Rogue Research Inc Logo"/>
   """
 
 +++
