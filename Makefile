@@ -9,7 +9,7 @@ build:
 
 .PHONY: publications
 publications: format-publications
-	pipenv run -- academic import --bibtex publications.bib
+	academic import --bibtex publications.bib
 
 .PHONY: format-publications
 format-publications:
@@ -17,11 +17,11 @@ format-publications:
 
 .PHONY: post
 post:
-	pipenv run python scripts/hugo_new.py new post
+	python3 scripts/hugo_new.py new post
 
 .PHONY: talk
 talk:
-	pipenv run python scripts/hugo_new.py new talk
+	python3 scripts/hugo_new.py new talk
 
 .PHONY: optimize
 optimize: optimize-featured-size optimize-jpg optimize-png
@@ -41,6 +41,7 @@ PNG_IMAGES := $(shell find content assets static -iname "*.png")
 optimize-png: $(PNG_IMAGES)
 	optipng $?
 
+# test google lighthouse metrics
 .PHONY: lighthouse
 lighthouse:
 	lighthouse https://www.nicholasnadeau.me --view
@@ -48,3 +49,17 @@ lighthouse:
 .PHONY: lighthouse-local
 lighthouse-local:
 	lighthouse http://localhost:1313/ --view
+
+
+# test netlify pipeline
+.PHONY: netlify-build
+netlify-build:
+	netlify build
+
+.PHONY: netlify-deploy
+netlify-deploy: netlify-build
+	netlify deploy --open
+
+.PHONY: netlify-lighthouse
+netlify-lighthouse: netlify-build
+	lighthouse --view $(shell netlify deploy --json | jq -r ".deploy_url")
