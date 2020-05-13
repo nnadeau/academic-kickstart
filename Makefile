@@ -44,3 +44,7 @@ optimize-png: $(PNG_IMAGES)
 .PHONY: lighthouse
 lighthouse:
 	lighthouse https://www.nicholasnadeau.me --view
+
+.PHONY: lighthouse-local
+lighthouse:
+	lighthouse http://localhost:1313/ --view
