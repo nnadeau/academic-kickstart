@@ -3,3 +3,6 @@ public/
 .vscode/
 resources/
 *.report.html
+
+# Local Netlify folder
+.netlify
