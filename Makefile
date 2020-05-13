@@ -24,7 +24,12 @@ talk:
 	pipenv run python scripts/hugo_new.py new talk
 
 
-JPG_FILES := $(shell find content -iname "*.jpg")
-.PHONY: optimize
-optimize: $(JPG_FILES)
+FEATURED_IMAGES := $(shell find content -iname "featured.*")
+.PHONY: optimize-featured-size
+optimize-featured-size: $(FEATURED_IMAGES)
+	mogrify -resize 1024x $?
+
+JPG_IMAGES := $(shell find content -iname "*.jpg")
+.PHONY: optimize-jpg
+optimize-jpg: $(JPG_IMAGES)
 	jpegoptim -s $?
