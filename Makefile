@@ -22,3 +22,9 @@ post:
 .PHONY: talk
 talk:
 	pipenv run python scripts/hugo_new.py new talk
+
+
+JPG_FILES := $(shell find content -iname "*.jpg")
+.PHONY: optimize
+optimize: $(JPG_FILES)
+	jpegoptim -s $?
