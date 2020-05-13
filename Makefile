@@ -40,3 +40,7 @@ PNG_IMAGES := $(shell find content assets static -iname "*.png")
 .PHONY: optimize-png
 optimize-png: $(PNG_IMAGES)
 	optipng $?
+
+.PHONY: lighthouse
+lighthouse:
+	lighthouse https://www.nicholasnadeau.me --view
