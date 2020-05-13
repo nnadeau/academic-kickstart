@@ -33,3 +33,8 @@ JPG_IMAGES := $(shell find content -iname "*.jpg")
 .PHONY: optimize-jpg
 optimize-jpg: $(JPG_IMAGES)
 	jpegoptim -s $?
+
+PNG_IMAGES := $(shell find content -iname "*.png")
+.PHONY: optimize-png
+optimize-png: $(PNG_IMAGES)
+	optipng $?
