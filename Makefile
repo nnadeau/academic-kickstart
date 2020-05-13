@@ -46,5 +46,5 @@ lighthouse:
 	lighthouse https://www.nicholasnadeau.me --view
 
 .PHONY: lighthouse-local
-lighthouse:
+lighthouse-local:
 	lighthouse http://localhost:1313/ --view
