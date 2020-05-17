@@ -65,3 +65,9 @@ netlify-deploy: netlify-build
 .PHONY: netlify-lighthouse
 netlify-lighthouse: netlify-build
 	lighthouse --view $(shell netlify deploy --json | jq -r ".deploy_url")
+
+.PHONY: featured-image
+featured-image:
+	@echo "Query: "; \
+    read QUERY; \
+    python3 scripts/featured_image.py create_image $$QUERY
