@@ -5,7 +5,13 @@ draft: false
 event: Society for Neuroscience 2016
 event_url: ""
 highlight: true
-location: San Diego, CA
+location: San Diego Convention Center
+address:
+  street: 111 W Harbor Dr
+  city: San Diego
+  region: CA
+  postcode: '92101'
+  country: United States
 math: false
 projects: []
 selected: false

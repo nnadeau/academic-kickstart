@@ -16,7 +16,13 @@ header:
   caption: ""
   image: ""
 highlight: true
-location: Montréal, QC
+location: Université du Québec à Montréal
+address:
+  street: 405 Rue Sainte-Catherine Est
+  city: Montréal
+  region: QC
+  postcode: H2L 2C4
+  country: Canada
 math: false
 projects: []
 selected: false

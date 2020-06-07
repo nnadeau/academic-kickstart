@@ -8,7 +8,13 @@ header:
   caption: ""
   image: ""
 highlight: true
-location: Montréal, QC
+location: Maison Notman House
+address:
+  street: 51 Sherbrooke St W
+  city: Montréal
+  region: QC
+  postcode: H2X 1X2
+  country: Canada
 math: false
 projects: []
 selected: false

@@ -20,7 +20,13 @@ draft: false
 event: 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 event_url: https://ras.papercept.net/conferences/conferences/IROS18/program/IROS18_ContentListWeb_2.html
 highlight: true
-location: Madrid, Spain
+location: Madrid Municipal Conference Centre
+address:
+  street: Av. Capital de España, 7
+  city: Madrid
+  region:
+  postcode: '28042'
+  country: Spain
 math: false
 projects: []
 selected: false

@@ -13,7 +13,13 @@ header:
   caption: ""
   image: ""
 highlight: true
-location: Washington, D.C.
+location: Walter E. Washington Convention Center
+address:
+  street: 801 Mt Vernon Pl NW
+  city: Washington
+  region: D.C.
+  postcode: '20001'
+  country: United States
 math: false
 projects: []
 selected: false
