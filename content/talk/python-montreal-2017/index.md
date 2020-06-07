@@ -1,56 +1,40 @@
-+++
-title = "Domo arigato, Mr. Roboto: Calibrating Robots with Python"
-date = 2017-10-01
-draft = false
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2017-10-01T06:00:00
-
-# Abstract and optional shortened version.
-abstract = ""
-summary = ""
-
-# Name of event and optional event URL.
-event = "Montréal-Python 67: Ultramodern Vintage - PyCon Canada Special"
-event_url = "https://montrealpython.org/en/2017/10/mp67/"
-
-# Location of event.
-location = "Montréal, QC"
-
-# Is this a selected talk? (true/false)
-selected = false
-
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-#   Otherwise, set `projects = []`.
-projects = []
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["application", "calibration", "canada", "environment", "kinematics", "math", "production", "pybotics", "pycon", "python", "robots", "special", "ultramodern", "vintage"]
-
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = "https://youtu.be/wgKoGA69YXQ"
-url_code = ""
-
-# Does the content use math formatting?
-math = false
-
-# Does the content use source code highlighting?
-highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
-+++
+---
+abstract: ""
+date: "2017-10-01T00:00:00-04:00"
+draft: false
+event: 'Montréal-Python 67: Ultramodern Vintage - PyCon Canada Special'
+event_url: https://montrealpython.org/en/2017/10/mp67/
+header:
+  caption: ""
+  image: ""
+highlight: true
+location: Montréal, QC
+math: false
+projects: []
+selected: false
+summary: ""
+tags:
+- application
+- calibration
+- canada
+- environment
+- kinematics
+- math
+- production
+- pybotics
+- pycon
+- python
+- robots
+- special
+- ultramodern
+- vintage
+time_start: "2017-10-01T06:00:00-04:00"
+title: 'Domo arigato, Mr. Roboto: Calibrating Robots with Python'
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: https://youtu.be/wgKoGA69YXQ
+---
 
 This talk was presented at [Montréal-Python 67: Ultramodern Vintage - PyCon Canada Special](https://montrealpython.org/2017/10/mp67/)
 

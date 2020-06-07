@@ -1,62 +1,34 @@
-+++
-title = "Characterization of a Robotic Micro-surgical System for Small-animal Neurosurgery"
-date = 2017-11-06
-draft = false
+---
+abstract: |
+  Advancements in veterinary neurosurgery have led to brain imaging and more robust planning prior to surgical intervention. Using neuronavigation software, brain imaging allows the surgeon to explore critical structures ahead of the surgery and designate targets and trajectories to target for each procedure. While brain targets may be well-defined in software, accuracy and efficiency is lost in the surgical environment due to manual human tasks and manipulation.
 
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2017-11-11T16:00:00
+  Here we present the characterization of a robotic micro-surgical system for small-animal neurosurgery. The system is capable of moving to, drilling, injecting, placing electrodes or any other surgical device to predefined targets using imaging data and Brainsight Vet neuronavigation software (Rogue Research Inc., Montréal). Through stereo machine vision, the system is able to register a surface (e.g., exposed skull) to a given imaging dataset and calibrate an arbitrary tool in order to accurately position a 6-axis robotic arm (Mecademic, Montréal) for surgical procedures. In this particular study, we characterize the micro-surgical system using a surgical phantom in order to demonstrate the accuracy and repeatability of the tool positioning and subject registration. The experiment is designed to simulate keyhole drilling, electrode placement, and microinjections in a small-animal. The mapping between robot-space and imagespace is computed using a laser-generated point cloud and stereo machine vision. Consequently, the exact placement of the animal and the alignment of bregma and lambda become irrelevant, in contrast with paper atlas stereotaxic procedures, since navigation and robot control are performed with respect to the imaging data. The robot itself is capable of 5µm repeatability, as measured with an electronic indicator (Mitutoyo 543-793).
 
-# Abstract and optional shortened version.
-abstract = """
-Advancements in veterinary neurosurgery have led to brain imaging and more robust planning prior to surgical intervention. Using neuronavigation software, brain imaging allows the surgeon to explore critical structures ahead of the surgery and designate targets and trajectories to target for each procedure. While brain targets may be well-defined in software, accuracy and efficiency is lost in the surgical environment due to manual human tasks and manipulation.
-
-Here we present the characterization of a robotic micro-surgical system for small-animal neurosurgery. The system is capable of moving to, drilling, injecting, placing electrodes or any other surgical device to predefined targets using imaging data and Brainsight Vet neuronavigation software (Rogue Research Inc., Montréal). Through stereo machine vision, the system is able to register a surface (e.g., exposed skull) to a given imaging dataset and calibrate an arbitrary tool in order to accurately position a 6-axis robotic arm (Mecademic, Montréal) for surgical procedures. In this particular study, we characterize the micro-surgical system using a surgical phantom in order to demonstrate the accuracy and repeatability of the tool positioning and subject registration. The experiment is designed to simulate keyhole drilling, electrode placement, and microinjections in a small-animal. The mapping between robot-space and imagespace is computed using a laser-generated point cloud and stereo machine vision. Consequently, the exact placement of the animal and the alignment of bregma and lambda become irrelevant, in contrast with paper atlas stereotaxic procedures, since navigation and robot control are performed with respect to the imaging data. The robot itself is capable of 5µm repeatability, as measured with an electronic indicator (Mitutoyo 543-793).
-
-This system removes the error-prone human component from surgical procedures, allowing for a more effective and efficient surgery, with the goal of improving surgical success rate, throughput, and experiment replicability.
-"""
-summary = ""
-
-# Name of event and optional event URL.
-event = "Society for Neuroscience"
-event_url = ""
-
-# Location of event.
-location = "Washington, D.C."
-
-# Is this a selected talk? (true/false)
-selected = false
-
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-#   Otherwise, set `projects = []`.
-projects = []
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["robotics", "neuroscience", "mechanical"]
-
-# Links (optional).
-url_pdf = "https://www.sfn.org/Annual-Meeting/Neuroscience-2017/Sessions-and-Events/Program/Abstract-PDFs"
-url_slides = ""
-url_video = ""
-url_code = ""
-
-# Does the content use math formatting?
-math = false
-
-# Does the content use source code highlighting?
-highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
-+++
+  This system removes the error-prone human component from surgical procedures, allowing for a more effective and efficient surgery, with the goal of improving surgical success rate, throughput, and experiment replicability.
+date: "2017-11-06T00:00:00-05:00"
+draft: false
+event: Society for Neuroscience
+event_url: ""
+header:
+  caption: ""
+  image: ""
+highlight: true
+location: Washington, D.C.
+math: false
+projects: []
+selected: false
+summary: ""
+tags:
+- robotics
+- neuroscience
+- mechanical
+time_start: "2017-11-11T16:00:00-05:00"
+title: Characterization of a Robotic Micro-surgical System for Small-animal Neurosurgery
+url_code: ""
+url_pdf: https://www.sfn.org/Annual-Meeting/Neuroscience-2017/Sessions-and-Events/Program/Abstract-PDFs
+url_slides: ""
+url_video: ""
+---
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BbfS9G-FPWW/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BbfS9G-FPWW/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">#sfn17 Day 3! . . . . . #science #neuroscience #neuro #neurosurgery #robot #robotics #research #brain #engineer #engineering #biology #biomedical</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/engnadeau/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Nicholas Nadeau, P.Eng., AVS</a> (@engnadeau) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-11-14T20:25:58+00:00">Nov 14, 2017 at 12:25pm PST</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
 

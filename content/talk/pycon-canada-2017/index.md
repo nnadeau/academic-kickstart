@@ -1,63 +1,37 @@
-+++
-title = "Domo arigato, Mr. Roboto: Calibrating Robots with Python"
-date = 2017-11-19
-draft = false
+---
+abstract: |
+  Modern robotic applications often rely on offline programming to reduce process downtime. In a virtual environment, robot application specialists may program, visualize, and test their robotic application before uploading it to the real production environment, saving time and costs. However, to achieve a high level of fidelity between virtual and production environments, the robot system must be accurate.
 
-time_start = 2017-11-19T11:00:00
+  Unfortunately, even though most industrial robots are inherently precise (i.e., repeatable), they are not necessarily very accurate. One cost-effective approach to obtaining a more accurate robot is through calibration, where the actual kinematic and non-kinematic parameters of the robot model are identified and improved upon when compared to the nominal model. This talk introduces pybotics, an open-source Python toolbox for robot kinematics and calibration. The talk will feature the following topics:
 
-# Abstract and optional shortened version.
-abstract = """
-Modern robotic applications often rely on offline programming to reduce process downtime. In a virtual environment, robot application specialists may program, visualize, and test their robotic application before uploading it to the real production environment, saving time and costs. However, to achieve a high level of fidelity between virtual and production environments, the robot system must be accurate.
-
-Unfortunately, even though most industrial robots are inherently precise (i.e., repeatable), they are not necessarily very accurate. One cost-effective approach to obtaining a more accurate robot is through calibration, where the actual kinematic and non-kinematic parameters of the robot model are identified and improved upon when compared to the nominal model. This talk introduces pybotics, an open-source Python toolbox for robot kinematics and calibration. The talk will feature the following topics:
-
-- An introduction to modern industrial robotics
-- Spatial descriptions and transformations
-- Robot kinematics
-- Robot calibration with pybotics + NumPy + SciPy
-"""
-summary = ""
-
-# Name of event and optional event URL.
-event = "PyCon Canada"
-event_url = "https://2017.pycon.ca/schedule/53/"
-
-# Location of event.
-location = "Montréal, QC"
-
-# Is this a selected talk? (true/false)
-selected = false
-
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-#   Otherwise, set `projects = []`.
-projects = []
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["robotics", "python", "mechanical"]
-
-# Links (optional).
-url_pdf = "https://github.com/nnadeau/pycon-canada-2017"
-url_slides = "https://github.com/nnadeau/pycon-canada-2017"
-url_video = ""
-url_code = "https://github.com/nnadeau/pybotics/"
-
-# Does the content use math formatting?
-math = false
-
-# Does the content use source code highlighting?
-highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
-+++
+  - An introduction to modern industrial robotics
+  - Spatial descriptions and transformations
+  - Robot kinematics
+  - Robot calibration with pybotics + NumPy + SciPy
+date: "2017-11-19T00:00:00-05:00"
+draft: false
+event: PyCon Canada
+event_url: https://2017.pycon.ca/schedule/53/
+header:
+  caption: ""
+  image: ""
+highlight: true
+location: Montréal, QC
+math: false
+projects: []
+selected: false
+summary: ""
+tags:
+- robotics
+- python
+- mechanical
+time_start: "2017-11-19T11:00:00-05:00"
+title: 'Domo arigato, Mr. Roboto: Calibrating Robots with Python'
+url_code: https://github.com/nnadeau/pybotics/
+url_pdf: https://github.com/nnadeau/pycon-canada-2017
+url_slides: https://github.com/nnadeau/pycon-canada-2017
+url_video: ""
+---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Why we should calibrate <a href="https://twitter.com/hashtag/robots?src=hash&amp;ref_src=twsrc%5Etfw">#robots</a> and introduction to cool library pyrobotics in <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> via <a href="https://twitter.com/EngNadeau?ref_src=twsrc%5Etfw">@EngNadeau</a> at the <a href="https://twitter.com/pyconca?ref_src=twsrc%5Etfw">@pyconca</a> <a href="https://twitter.com/hashtag/PyConCA2017?src=hash&amp;ref_src=twsrc%5Etfw">#PyConCA2017</a> <a href="https://twitter.com/hashtag/Montreal?src=hash&amp;ref_src=twsrc%5Etfw">#Montreal</a> <a href="https://t.co/wivyNGr8bp">pic.twitter.com/wivyNGr8bp</a></p>&mdash; Abhishek Gupta (@atg_abhishek) <a href="https://twitter.com/atg_abhishek/status/932285250734120960?ref_src=twsrc%5Etfw">November 19, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
