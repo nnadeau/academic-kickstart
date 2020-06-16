@@ -74,22 +74,31 @@ import requests
 import json
 
 # copy "Push URL" from "API Info" in Power BI
-url = "https://api.powerbi.com/beta/MY-PUSH-URL-TOKEN"
+url = "https://api.powerbi.com/beta/ABC-XYZ"
 
 # timestamps should be formatted like this
-now = datetime.strftime(datetime.now(), "%Y-%m-%dT%H:%M:%S")
+now = datetime.strftime(
+  datetime.now(),
+  "%Y-%m-%dT%H:%M:%S"
+  )
 
 # data dict must be contained in a list
 data = [
   {
     "string_value": "ABC XYZ",
     "number_value": 12345,
-    "datetime_value": now}
+    "datetime_value": now
+    }
   ]
 
 # post/push data to the streaming API
-headers = {"Content-Type": "application/json"}
+headers = {
+  "Content-Type": "application/json"
+  }
 response = requests.request(
-    method="POST", url=url, headers=headers, data=json.dumps(data)
+    method="POST",
+    url=url,
+    headers=headers,
+    data=json.dumps(data)
 )
 ```
