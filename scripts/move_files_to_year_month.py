@@ -19,6 +19,7 @@ for p in paths:
     content_type = content_dir.parent.name
     if content_type not in CONTENT_TYPES:
         continue
+    print(f'Processing: {content_dir}')
 
     with open(p) as f:
         lines = f.read().splitlines()
@@ -33,4 +34,6 @@ for p in paths:
         raise (ValueError(f"{p} does not have a valid date"))
 
     new_dir = CONTENT_DIR / content_type / str(date.year) / str(date.month)
-    shutil.move(content_dir, new_dir)
+    print(f'Moving to: {new_dir}')
+
+    shutil.move(str(content_dir.resolve()), str(new_dir.resolve()))
