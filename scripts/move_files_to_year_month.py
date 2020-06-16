@@ -30,6 +30,23 @@ for p in paths:
             date = l.split()[-1].strip('"')
             date = datetime.fromisoformat(date)
             break
+
+    front_matter_delimiter = None
+    front_matter_type = None
+    try:
+        front_matter_delimiter = lines.index("---", 1)
+        front_matter_type = "yaml"
+    except ValueError:
+        front_matter_delimiter = lines.index("+++", 1)
+        front_matter_type = "toml"
+
+    alias = f"/{content_type}/{post_dir.name}"
+    if front_matter_type == "yaml":
+        alias = f"aliases:\n- {alias}"
+    else:
+        alias = f'aliases = ["{alias}"]'
+    lines.insert(front_matter_delimiter, alias)
+
     if not date:
         raise (ValueError(f"{p} does not have a valid date"))
 
@@ -37,5 +54,9 @@ for p in paths:
         CONTENT_DIR / content_type / str(date.year) / str(date.month) / post_dir.name
     )
     print(f"Moving to: {new_dir}")
-
     shutil.move(str(post_dir.resolve()), str(new_dir.resolve()))
+
+    # write updated index.md with alias in front matter
+    lines = "\n".join(lines)
+    with open(new_dir / "index.md", "w") as f:
+        f.write(lines)
