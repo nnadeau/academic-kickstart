@@ -57,6 +57,7 @@ for p in paths:
     shutil.move(str(post_dir.resolve()), str(new_dir.resolve()))
 
     # write updated index.md with alias in front matter
+    lines.append("")
     lines = "\n".join(lines)
     with open(new_dir / "index.md", "w") as f:
         f.write(lines)
