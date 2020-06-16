@@ -33,7 +33,7 @@ for p in paths:
     if not date:
         raise (ValueError(f"{p} does not have a valid date"))
 
-    new_dir = CONTENT_DIR / content_type / str(date.year) / str(date.month)
+    new_dir = CONTENT_DIR / content_type / str(date.year) / str(date.month) / content_dir
     print(f'Moving to: {new_dir}')
 
     shutil.move(str(content_dir.resolve()), str(new_dir.resolve()))
