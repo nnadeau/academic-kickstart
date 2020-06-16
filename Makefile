@@ -68,6 +68,4 @@ netlify-lighthouse: netlify-build
 
 .PHONY: featured-image
 featured-image:
-	@echo "Query: "; \
-    read QUERY; \
-    python3 scripts/featured_image.py create_image $$QUERY
+	python3 scripts/featured_image.py create_image
