@@ -102,3 +102,81 @@ response = requests.request(
     data=json.dumps(data)
 )
 ```
+
+If all goes well, the returned `response` object will be a [HTTP Status `200 OK`](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#2xx_Success).
+
+### Additional Notes
+
+#### Lists and Data
+
+The data `dict` payload must be wrapped in a `list`, else a [HTTP status `400 Bad Request`](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_errors) will be returned.
+The following code wouldn't work.
+
+```python
+data = {
+    "string_value": "ABC XYZ",
+    "number_value": 12345,
+    "datetime_value": now
+    }
+```
+
+#### Pushing Different Data
+
+If a value that isn't part of the previously defined dataset schema is sent (e.g., `another_number_value`), a [HTTP status `404 Not Found`](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_errors) will be returned.
+The following code wouldn't work.
+
+```python
+data = [
+  {
+    "string_value": "ABC XYZ",
+    "number_value": 12345,
+    "another_number_value": 789,
+    "datetime_value": now
+    }
+  ]
+```
+
+#### Omitting Values
+
+Not all values need to be included in a payload (e.g., we can send just `number_value` if we want), for example:
+
+```python
+data = [
+  {
+    "number_value": 12345,
+    }
+  ]
+```
+
+```python
+data = [
+  {
+    "string_value": "ABC XYZ",
+    "number_value": 12345,
+    }
+  ]
+```
+
+#### Multiple Data Payloads
+
+We can send multiple data `dict` as part of the payload (hence the `list` wrapper), for example:
+
+```python
+data = [
+  {
+    "string_value": "ABC",
+    "number_value": 12345,
+    "datetime_value": now
+    },
+    {
+    "string_value": "XYZ",
+    "number_value": 789,
+    "datetime_value": now
+    },
+    {
+    "string_value": "EFG",
+    "number_value": 852,
+    "datetime_value": now
+    }
+  ]
+```
