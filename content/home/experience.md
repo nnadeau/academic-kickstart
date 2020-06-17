@@ -18,6 +18,17 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Mentor"
+  company = "FounderFuel"
+  company_url = "https://founderfuel.com/"
+  location = "Montréal"
+  date_start = "2020-06-19"
+  date_end = ""
+  description = """
+  <img style="width:256px" src="img/logo-founderfuel.png" alt="FounderFuel Logo"/>
+  """
+
+[[experience]]
   title = "Engineering Manager"
   company = "AON3D"
   company_url = "https://aon3d.com/"
