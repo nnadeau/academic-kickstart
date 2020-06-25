@@ -1,7 +1,7 @@
 +++
 title = "Convert Images in a Directory"
 date = 2018-06-14T00:00:00
-tags = ["images", "bash", "resources", "loop", "formats", "imagemagick"]
+tags = ["images", "bash", "", "loop", "formats", "imagemagick"]
 categories = []
 aliases = ["/post/convert-images-in-a-directory"]
 +++

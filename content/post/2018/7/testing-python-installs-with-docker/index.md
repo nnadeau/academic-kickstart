@@ -1,7 +1,7 @@
 +++
 title = "Testing Python Packages with Docker"
 date = 2018-07-30T20:42:57
-tags = ["bash", "container", "deployment", "development", "devops", "docker", "environment", "first", "management", "method", "packages", "pwd", "python", "resources"]
+tags = ["bash", "container", "deployment", "development", "devops", "docker", "environment", "first", "management", "method", "packages", "pwd", "python", ""]
 categories = []
 aliases = ["/post/testing-python-installs-with-docker"]
 +++

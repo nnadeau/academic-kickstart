@@ -5,7 +5,7 @@ title: "Coronavirus: Montréal Companies Rush to Start Making Medical Equipment"
 subtitle: ""
 summary: ""
 authors: []
-tags: ["aon3d", "companies", "coronavirus", "equipment", "gazette", "medical", "montreal", "nadeau", "nicholas", "rush", "telephone", "week", "whirlwind"]
+tags: ["aon3d", "companies", "coronavirus", "equipment", "gazette", "medical", "montreal", "", "", "rush", "telephone", "week", "whirlwind"]
 categories: []
 date: 2020-04-03T22:29:29-04:00
 lastmod: 2020-04-03T22:29:29-04:00

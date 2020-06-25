@@ -24,7 +24,7 @@ all_day: true
 publishDate: 2020-04-22T13:20:59-04:00
 
 authors: []
-tags: ["aon3d", "episode", "manager", "markdown", "nadeau", "nicholas", "podcast", "products"]
+tags: ["aon3d", "episode", "manager", "markdown", "", "", "podcast", "products"]
 
 # Is this a featured talk? (true/false)
 featured: false

@@ -1,7 +1,7 @@
 +++
 title = "My Favourite LaTeX Packages"
 date = 2018-06-25T22:13:30
-tags = ["babel", "biblatex", "booktab", "capitalise", "character", "cleveref", "csquote", "english", "favourite", "font", "graphicspath", "graphicx", "hyperref", "hyphenation", "ieee", "inputenc", "midrule", "multicolumn", "packages", "phd", "placein", "refernces", "resources", "sisetup", "siunitx", "toprule", "unit", "usepackage", "utf8"]
+tags = ["babel", "biblatex", "booktab", "capitalise", "character", "cleveref", "csquote", "english", "favourite", "font", "graphicspath", "graphicx", "hyperref", "hyphenation", "ieee", "inputenc", "midrule", "multicolumn", "packages", "phd", "placein", "refernces", "", "sisetup", "siunitx", "toprule", "unit", "usepackage", "utf8"]
 categories = []
 summary = " "
 aliases = ["/post/my-favourite-latex-packages"]

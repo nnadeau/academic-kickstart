@@ -1,7 +1,7 @@
 +++
 title = "Start a Simple Web Server"
 date = 2018-06-14T00:00:00
-tags = ["bash", "devops", "python", "resources", "server", "simple", "web"]
+tags = ["bash", "devops", "python", "", "server", "simple", "web"]
 categories = []
 aliases = ["/post/start-a-simple-web-server"]
 +++
