@@ -5,7 +5,7 @@ title: "Download iCal Calendar Data Using Python"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["calendar", "data", "fire", "ics", "ical", "python","pandas"]
 categories: []
 date: 2020-06-25T08:32:04-04:00
 lastmod: 2020-06-25T08:32:04-04:00
