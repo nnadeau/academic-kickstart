@@ -51,7 +51,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Consulting CTO"
+  title = "Technology Advisor to the CEO"
   company = "YPC Technologies"
   company_url = "https://www.ypc-technologies.com/"
   location = "Montréal"
