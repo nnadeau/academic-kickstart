@@ -1,11 +1,11 @@
 +++
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Consulting"
+#title = "Consulting"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = ""
@@ -36,12 +36,12 @@ hero_media = ""
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "#contact"
-  label = "Get Started"
-  icon_pack = "fas"
-  icon = "rocket"
-
+#[cta]
+#  url = "#contact"
+#  label = "Get Started"
+#  icon_pack = "fas"
+#  icon = "rocket"
+#
 # [cta_alt]
 #   url = "https://sourcethemes.com/academic/"
 #   label = "View Documentation"
@@ -50,8 +50,3 @@ hero_media = ""
 # [cta_note]
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
-
-- Product Development: From zero to one and beyond
-- Team Management: Scaling hardware and software
-- Project management: Lean and agile development
-- R&D guidance: Project planning and SR&ED tax incentives
