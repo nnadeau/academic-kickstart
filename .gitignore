@@ -6,3 +6,6 @@ resources/
 
 # Local Netlify folder
 .netlify
+
+# NN: jupyter
+.ipynb_checkpoints/
