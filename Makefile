@@ -35,6 +35,10 @@ post:
 notebook:
 	python3 scripts/hugo_new.py new post --notebook
 
+.PHONY: convert-notebooks
+convert-notebooks:
+	python3 scripts/convert_notebooks.py
+
 .PHONY: talk
 talk:
 	python3 scripts/hugo_new.py new talk
