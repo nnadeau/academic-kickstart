@@ -40,7 +40,7 @@ def new(kind: str, notebook: bool = False):
     subprocess.run(cmd)
 
     if notebook:
-        path = Path.cwd() / 'content' / path
+        path = Path.cwd() / "content" / path
         _create_notebook(path.resolve())
 
 
