@@ -1,9 +1,9 @@
 # Convert content files from
 # {base url}/{type}/{title} to {base url}/{type}/{year}/{month}/{title}
 # while retaining alias urls
-from pathlib import Path
 import shutil
 from datetime import datetime
+from pathlib import Path
 
 # globals
 ROOT_DIR = Path(__file__).parents[1]

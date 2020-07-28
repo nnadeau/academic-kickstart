@@ -1,9 +1,11 @@
 import logging
 import subprocess
 from datetime import datetime
+from pathlib import Path
 from string import ascii_lowercase, digits, whitespace
 
 import fire
+import nbformat as nbf
 
 
 def sanitize_fname(s: str):
@@ -22,7 +24,7 @@ def get_title():
     return title
 
 
-def new(kind: str):
+def new(kind: str, notebook: bool = False):
     # get title
     title = get_title()
     title = sanitize_fname(title)
@@ -37,6 +39,22 @@ def new(kind: str):
     cmd = ["hugo", "new", path]
     logging.info(f"Hugo command: {' '.join(cmd)}")
     subprocess.run(cmd)
+
+    if notebook:
+        path = Path.cwd() / "content" / path
+        _create_notebook(path.resolve())
+
+
+def _create_notebook(dir_path: Path):
+    # get metadate to copy to notebook
+    index_path = dir_path / "index.md"
+    with open(index_path) as f:
+        meta = f.read()
+
+    # create notebook
+    nb = nbf.v4.new_notebook()
+    nb["cells"] = [nbf.v4.new_markdown_cell(meta)]
+    nbf.write(nb, index_path.with_suffix(".ipynb"))
 
 
 if __name__ == "__main__":

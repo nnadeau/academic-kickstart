@@ -1,7 +1,8 @@
-from typing import Optional
 import logging
 import subprocess
 from pathlib import Path
+from typing import Optional
+
 import fire
 
 ROOT_DIR = Path(__file__).parents[1]
@@ -18,7 +19,7 @@ def get_latest_post_dir():
 
 def create_image(query: Optional[str] = None, dir_path: Optional[str] = None):
     if not query:
-        query = input('Query: ')
+        query = input("Query: ")
 
     if dir_path:
         dir_path = Path(dir_path)

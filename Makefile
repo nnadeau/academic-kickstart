@@ -1,3 +1,9 @@
+# hugo commands
+
+.PHONY: clean
+clean:
+	rm -rf public
+
 .PHONY: serve
 serve:
 	hugo version
@@ -7,6 +13,9 @@ serve:
 build:
 	hugo --gc --minify
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# publications
+
 .PHONY: publications
 publications: format-publications
 	academic import --bibtex publications.bib
@@ -15,23 +24,31 @@ publications: format-publications
 format-publications:
 	bibtool -s publications.bib -o publications.bib
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# content
+
 .PHONY: post
 post:
 	python3 scripts/hugo_new.py new post
+
+.PHONY: notebook
+notebook:
+	python3 scripts/hugo_new.py new post --notebook
+
+.PHONY: convert-notebooks
+convert-notebooks:
+	python3 scripts/convert_notebooks.py
 
 .PHONY: talk
 talk:
 	python3 scripts/hugo_new.py new talk
 
-.PHONY: optimize
-optimize: optimize-featured-size
+.PHONY: featured-image
+featured-image:
+	python3 scripts/featured_image.py create_image
 
-FEATURED_IMAGES := $(shell find content assets static -iname "featured.*")
-.PHONY: optimize-featured-size
-optimize-featured-size:
-	for F in $(FEATURED_IMAGES) ; do \
-		mogrify -resize 1024x $$F ; \
-	done
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# web deployment
 
 # test google lighthouse metrics
 .PHONY: lighthouse
@@ -54,7 +71,3 @@ netlify-deploy: netlify-build
 .PHONY: netlify-lighthouse
 netlify-lighthouse: netlify-build
 	lighthouse --view $(shell netlify deploy --json | jq -r ".deploy_url")
-
-.PHONY: featured-image
-featured-image:
-	python3 scripts/featured_image.py create_image
