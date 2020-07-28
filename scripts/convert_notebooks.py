@@ -7,7 +7,7 @@ import nbconvert
 import nbformat
 
 
-def main(path: Optional[str]):
+def main(path: Optional[str] = None):
     if path:
         paths = [Path(path)]
     else:
@@ -18,10 +18,11 @@ def main(path: Optional[str]):
 
     # convert
     for p in paths:
-        logging.info(f"Converting {p}")
         text, meta = nbconvert.MarkdownExporter().from_filename(p)
         output = p.with_suffix(".md")
-        logging.info(f"Exporting to {output}")
+        logging.info(
+            f"Exporting {p.relative_to(Path.cwd())} to {output.relative_to(Path.cwd())}"
+        )
         with open(output, "w") as f:
             f.write(text)
 
