@@ -1,8 +1,9 @@
 import logging
 import subprocess
 from datetime import datetime
-from string import ascii_lowercase, digits, whitespace
 from pathlib import Path
+from string import ascii_lowercase, digits, whitespace
+
 import fire
 import nbformat as nbf
 
