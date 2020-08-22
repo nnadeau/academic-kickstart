@@ -49,7 +49,11 @@ def _create_notebook(dir_path: Path):
     # get metadate to copy to notebook
     index_path = dir_path / "index.md"
     with open(index_path) as f:
-        meta = f.read()
+        meta = f.read().splitlines()
+
+    # strip comments (they look bad in jupyter)
+    meta = [m for m in meta if not m.startswith("#")]
+    meta = "\n".join(meta)
 
     # create notebook
     nb = nbf.v4.new_notebook()
