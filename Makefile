@@ -43,6 +43,10 @@ convert-notebooks:
 talk:
 	python3 scripts/hugo_new.py new talk
 
+.PHONY: project
+project:
+	python3 scripts/hugo_new.py new project
+
 .PHONY: featured-image
 featured-image:
 	python3 scripts/featured_image.py create_image
