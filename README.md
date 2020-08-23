@@ -7,7 +7,7 @@
 <h3 align="center">Nicholas Nadeau</h3>
 
 <p align="center">
-Personal website, portfolio, and blog
+Personal website, portfolio, and blog built using the Jamstack
 </p>
 </p>
 
