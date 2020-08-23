@@ -4,7 +4,7 @@
 title: "Plumes"
 summary: "Simple Twitter CLI for day-to-day social media hygiene"
 authors: []
-tags: ["python", "cli", "twitter"]
+tags: ["python", "cli", "twitter","web"]
 categories: []
 date: 2020-08-23T10:33:11-04:00
 

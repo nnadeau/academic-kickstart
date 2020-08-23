@@ -4,7 +4,7 @@
 title: "Kuka LBR iiwa Examples"
 summary: "Application and programming examples for the KUKA LBR iiwa 7 R800"
 authors: []
-tags: ["application", "controller", "data", "demo", "helper", "iiwa", "impedance", "kuka", "lbr", "", "", "", "robot", "youtube"]
+tags: ["application", "controller", "data", "demo", "helper", "iiwa", "impedance", "kuka", "lbr", "", "", "java", "robot", "youtube", "robotics","robot"]
 categories: []
 date: 2020-08-23T11:31:52-04:00
 
