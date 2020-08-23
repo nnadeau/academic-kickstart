@@ -22,16 +22,12 @@ subtitle = ""
   filter_default = 0
 
   [[content.filter_button]]
-    name = "All"
-    tag = "*"
+    name = "Python"
+    tag = "python"
 
   [[content.filter_button]]
     name = "Java"
     tag = "java"
-
-  [[content.filter_button]]
-    name = "Python"
-    tag = "python"
 
   [[content.filter_button]]
     name = "Robotics"
