@@ -23,6 +23,7 @@ def main(path: Optional[str] = None):
         logging.info(
             f"Exporting {p.relative_to(Path.cwd())} to {output.relative_to(Path.cwd())}"
         )
+        text = text.replace('<table border="1"', "<table")
         with open(output, "w") as f:
             f.write(text)
 
