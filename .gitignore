@@ -12,3 +12,4 @@ resources/
 
 # NN: misc data
 *.json
+content/**/*.html
