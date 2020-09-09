@@ -9,3 +9,7 @@ resources/
 
 # NN: jupyter
 .ipynb_checkpoints/
+
+# NN: misc data
+*.json
+content/**/*.html

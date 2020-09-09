@@ -1,4 +1,5 @@
 import logging
+import subprocess
 from pathlib import Path
 from typing import Optional
 
@@ -18,11 +19,16 @@ def main(path: Optional[str] = None):
 
     # convert
     for p in paths:
-        text, meta = nbconvert.MarkdownExporter().from_filename(p)
+        logging.info(f"Exporting {p.relative_to(Path.cwd())}")
+
+        args = ["jupyter", "nbconvert", p, "--to", "markdown"]
+        subprocess.run(args)
+
         output = p.with_suffix(".md")
-        logging.info(
-            f"Exporting {p.relative_to(Path.cwd())} to {output.relative_to(Path.cwd())}"
-        )
+        with open(output) as f:
+            text = f.read()
+
+        text = text.replace('<table border="1"', "<table")
         with open(output, "w") as f:
             f.write(text)
 

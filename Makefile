@@ -5,12 +5,12 @@ clean:
 	rm -rf public
 
 .PHONY: serve
-serve:
+serve: clean
 	hugo version
-	hugo serve --gc --minify
+	hugo serve --gc --minify --disableFastRender
 
 .PHONY: build
-build:
+build: clean
 	hugo --gc --minify
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
