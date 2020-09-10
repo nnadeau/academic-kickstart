@@ -78,7 +78,7 @@ date_format = "2006"
   company_url = "https://www.rogue-research.com/"
   location = "Montréal"
   date_start = "2011-04-01"
-  date_end = "2019-08-27"
+  date_end = "2018-08-27"
   description = """
   <img style="width:256px" src="img/logo-rogue.png" alt="Rogue Research Inc Logo"/>
   """
