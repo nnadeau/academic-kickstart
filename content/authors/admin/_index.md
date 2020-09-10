@@ -22,28 +22,28 @@ bio = ""
 email = ""
 
 # List (academic) interests or hobbies
-interests = [
-    "Additive Manufacturing",
-    "Biomedical Engineering",
-    "Machine Learning",
-    "Research & Development",
-    "Robotics & Automation",
-]
+# interests = [
+#     "Additive Manufacturing",
+#     "Biomedical Engineering",
+#     "Machine Learning",
+#     "Research & Development",
+#     "Robotics & Automation",
+# ]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 #user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "Ph.D. in Collaborative Robotics and Machine Learning"
-  institution = "École de technologie supérieure"
-  year = 2019
-
-[[education.courses]]
-  course = "B.Eng. in Mechanical & Biomedical Engineering"
-  institution = "McGill University"
-  year = 2014
+# [[education.courses]]
+#   course = "Ph.D. in Collaborative Robotics and Machine Learning"
+#   institution = "École de technologie supérieure"
+#   year = 2019
+#
+# [[education.courses]]
+#   course = "B.Eng. in Mechanical & Biomedical Engineering"
+#   institution = "McGill University"
+#   year = 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
