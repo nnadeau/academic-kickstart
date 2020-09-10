@@ -7,7 +7,7 @@ clean:
 .PHONY: serve
 serve: clean
 	hugo version
-	hugo serve --gc --minify --disableFastRender
+	hugo serve --gc --minify
 
 .PHONY: build
 build: clean
