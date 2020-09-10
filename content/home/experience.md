@@ -19,6 +19,17 @@ date_format = "2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Mentor"
+  company = "Techstars Montréal AI"
+  company_url = "https://www.techstars.com/accelerators/montreal-ai"
+  location = "Montréal"
+  date_start = "2020-09-10"
+  date_end = ""
+  description = """
+  <img style="width:256px" src="img/logo-techstars.png" alt="Techstars Montréal AI Accelerator Logo"/>
+  """
+
+[[experience]]
+  title = "Mentor"
   company = "FounderFuel"
   company_url = "https://founderfuel.com/"
   location = "Montréal"
@@ -70,6 +81,28 @@ date_format = "2006"
   date_end = "2019-08-27"
   description = """
   <img style="width:256px" src="img/logo-rogue.png" alt="Rogue Research Inc Logo"/>
+  """
+
+[[experience]]
+  title = "B.Eng. in Mechanical & Biomedical Engineering"
+  company = "McGill University"
+  company_url = "https://www.mcgill.ca/"
+  location = "Montréal"
+  date_start = "2010-09-01"
+  date_end = "2014-05-01"
+  description = """
+  <img style="width:256px" src="img/logo-mcgill.png" alt="McGill University Logo"/>
+  """
+
+[[experience]]
+  title = "Ph.D. in Collaborative Robotics and Machine Learning"
+  company = "École de technologie supérieure"
+  company_url = "https://www.etsmtl.ca/"
+  location = "Montréal"
+  date_start = "2016-01-01"
+  date_end = "2019-12-18"
+  description = """
+  <img style="width:256px" src="img/logo-ets.png" alt="École de technologie supérieure Logo"/>
   """
 
 +++
