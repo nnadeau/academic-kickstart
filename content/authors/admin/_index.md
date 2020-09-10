@@ -111,5 +111,3 @@ He is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs
 Nicholas received his Ph.D. from [École de technologie supérieure](http://en.etsmtl.ca/Unites-de-recherche/CoRo/Accueil?lang=en-CA) where his research combined machine learning and collaborative robotics to develop methods for [safe robotic freehand medical ultrasound](https://espace.etsmtl.ca/id/eprint/2461).
 
 Nicholas has spent the last decade creating unique technologies for the [biomedical, cognitive neuroscience](https://www.rogue-research.com/), [robotics](https://www.ypc-technologies.com/), and [additive manufacturing domains](https://www.aon3d.com/).
-
-When he isn’t behind a computer, you can usually find him at [Luna Yoga](http://www.lunayoga.ca/).
