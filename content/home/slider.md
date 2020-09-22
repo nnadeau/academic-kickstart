@@ -16,6 +16,25 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
+  title = "Subscribe via Email"
+  content = "Stay up to date with my latest posts, talks, and publications"
+  align = "center"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "hero-coro-lab.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.7  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+  cta_label = "Sign Up"
+  cta_url = "https://follow.it/nicholasnadeau?action=followPub"
+  cta_icon_pack = "fas"
+  cta_icon = "envelope"
+
+[[item]]
   title = "Consulting"
   content = "Product development, team management, R&D, and more"
   align = "center"  # Choose `center`, `left`, or `right`.
