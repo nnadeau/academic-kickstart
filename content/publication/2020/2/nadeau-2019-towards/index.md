@@ -2,7 +2,7 @@
 title: "Towards the development of safe, collaborative robotic freehand ultrasound"
 date: 2020-02-25
 publishDate: 2020-02-25
-authors: ["Nicholas A Nadeau"]
+authors: ["Nicholas A. Nadeau"]
 publication_types: ["7"]
 abstract: |
     The use of robotics in medicine is of growing importance for modern health services, as robotic systems have the capacity to improve upon human tasks, thereby enhancing the treatment ability of a healthcare provider. In the medical sector, ultrasound imaging is an inexpensive approach without the high radiation emissions often associated with other modalities, especially when compared to MRI and CT imaging respectively. Over the past two decades, considerable effort has been invested into freehand ultrasound robotics research and development.

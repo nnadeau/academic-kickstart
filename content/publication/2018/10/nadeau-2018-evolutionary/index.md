@@ -2,7 +2,7 @@
 title: "Evolutionary Motion Control Optimization in Physical Human-Robot Interaction"
 date: 2018-10-01
 publishDate: 2019-11-16T19:04:18.676185Z
-authors: ["N. A. Nadeau", "I. A. Bonev"]
+authors: ["Nicholas A. Nadeau", "I. A. Bonev"]
 publication_types: ["1"]
 abstract: ""
 featured: false
