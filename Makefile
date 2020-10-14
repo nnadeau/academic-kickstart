@@ -9,6 +9,11 @@ serve: clean
 	hugo version
 	hugo serve --gc --minify
 
+.PHONY: serve-future
+serve-future: clean
+	hugo version
+	hugo serve --gc --minify --buildFuture
+
 .PHONY: build
 build: clean
 	hugo --gc --minify
