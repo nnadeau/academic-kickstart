@@ -10,12 +10,17 @@ authors:
 - Kazem Fayazbakhsh
 - Abraham Avalos
 - Nicholas A. Nadeau
-tags: []
+tags: ["additive manufacturing", "3d printing", "filament", "mechanical", "test methods","coupons", "", "layer", "method", "properties", "shear", "strength", ""]
 categories: []
-date: '2020-01-01'
+date: '2020-11-16'
 lastmod: 2020-10-14T11:51:17-04:00
 featured: false
 draft: false
+
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -31,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-10-14T15:51:17.792958Z'
+publishDate: '2020-11-16'
 publication_types:
 - '1'
 abstract: 'The international community is exploring many potential end-uses for polymer additive manufacturing. However, significant issues must be addressed before broad application can occur, in particular understanding the relationships between materials, processes, and final part properties. Key to these issues is having reliable test methods to measure properties of interest.
