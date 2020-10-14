@@ -13,6 +13,7 @@ doi: "10.21105/joss.01738"
 tags: ["python", "robotics", "automation", "kinematics", "geometry", "optimization","application", "automation", "cartesian", "concepts", "dynamics", "efficacy", "environment", "generations", "geometry", "interface", "joint", "kinematics", "modern", "", "", "open", "optimization", "process", "production", "pybotics", "python", "robotics", "safety", "simulation", "software", "specialists", "toolbox", "trajectory", "ur10"]
 aliases:
 - /publication/nadeau-2019-pybotics
+- /publication/2019/9/nadeau-2019-pybotics
 ---
 
 ![UR10 Joint Motion](ur10_joint.gif)

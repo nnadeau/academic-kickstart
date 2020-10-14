@@ -13,6 +13,7 @@ abstract: "Given that the success of an interaction task depends on the capabili
 url_pdf: "https://ieeexplore.ieee.org/document/8593598"
 aliases:
 - /publication/nadeau-2018-evolutionary
+- /publication/2018/10/nadeau-2018-evolutionary
 ---
 
 ![Evolutionary Motion Control](kuka-evo_1.gif)

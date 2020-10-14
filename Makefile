@@ -9,6 +9,11 @@ serve: clean
 	hugo version
 	hugo serve --gc --minify
 
+.PHONY: serve-future
+serve-future: clean
+	hugo version
+	hugo serve --gc --minify --buildFuture
+
 .PHONY: build
 build: clean
 	hugo --gc --minify
@@ -18,7 +23,7 @@ build: clean
 
 .PHONY: publications
 publications: format-publications
-	academic import --bibtex publications.bib
+	academic import --bibtex publications.bib --normalize
 
 .PHONY: format-publications
 format-publications:
