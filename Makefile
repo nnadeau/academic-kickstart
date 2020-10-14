@@ -18,7 +18,7 @@ build: clean
 
 .PHONY: publications
 publications: format-publications
-	academic import --bibtex publications.bib
+	academic import --bibtex publications.bib --normalize
 
 .PHONY: format-publications
 format-publications:
