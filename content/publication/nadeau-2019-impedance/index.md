@@ -11,5 +11,5 @@ url_pdf: "https://www.mdpi.com/2218-6581/8/2/33"
 doi: "10.3390/robotics8020033"
 aliases:
 - /publication/nadeau-2019-impedance
+- /publication/2019/1/nadeau-2019-impedance
 ---
-

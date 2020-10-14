@@ -12,4 +12,5 @@ doi: "10.1109/IROS.2018.8594224"
 url_pdf: "https://ieeexplore.ieee.org/abstract/document/8594224"
 aliases:
 - /publication/kwiatkowski-2018-extrinsic
+- /publication/2018/10/kwiatkowski-2018-extrinsic
 ---

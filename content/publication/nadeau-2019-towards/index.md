@@ -21,4 +21,5 @@ tags: ["adaptive systems", "calibration", "evolutionary computation", "force con
 url_pdf: "http://espace.etsmtl.ca/id/eprint/2461"
 aliases:
 - /publication/nadeau-2019-towards
+- /publication/2020/2/nadeau-2019-towards
 ---
