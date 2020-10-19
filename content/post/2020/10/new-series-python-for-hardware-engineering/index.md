@@ -5,7 +5,7 @@ title: "New Series: Python for Hardware Engineers"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["engineer", "hardware", "engineering", "", "python", "design", "series", "mechanical", "electrical"]
 categories: []
 date: 2020-10-26
 lastmod: 2020-10-19T07:55:14-04:00
