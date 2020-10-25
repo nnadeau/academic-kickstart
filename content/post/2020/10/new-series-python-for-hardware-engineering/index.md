@@ -7,7 +7,7 @@ summary: ""
 authors: []
 tags: ["engineer", "hardware", "engineering", "", "python", "design", "series", "mechanical", "electrical"]
 categories: []
-date: 2020-10-26
+date: 2020-10-25
 lastmod: 2020-10-19T07:55:14-04:00
 featured: false
 draft: false
