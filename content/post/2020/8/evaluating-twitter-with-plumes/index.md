@@ -1353,7 +1353,7 @@ This is especially true for CNN and YouTube.
 If there is something truly worthwhile being tweeted by these people (or orgs), I'll probably hear about it from my thousand other social media sources.
 What I want from Twitter is more personal content from people that provide intelligent ideas and good discussion topics. 
 
-Let's start by exploring a user's Twitter Follower-to-Friend (TFF ratio).
+Let's start by exploring a user's followers vs. friends and their Twitter Follower-to-Friend (TFF ratio).
 
 
 ```python
@@ -1374,9 +1374,9 @@ fig.tight_layout()
 ![png](index_files/index_22_0.png)
 
 
-Right away, we can see that the majority of outliers fall below the TFF line.
-Below the line, people have many more followers than friends (e.g., celebrities, popular people).
-Above the line, you follow a lot of people, but people don't follow you back (e.g., up-and-comers, bots).
+Right away, we can see that the majority of outliers fall below a TFF ratio of 1.
+Below TFF=1, people have many more followers than friends (e.g., celebrities, popular people).
+Above TFF=1, you follow a lot of people, but people don't follow you back (e.g., up-and-comers, bots).
 
 So who should I follow?
 Let's look at who I've interacted with in the past.
