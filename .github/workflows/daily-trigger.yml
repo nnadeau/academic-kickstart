@@ -4,7 +4,7 @@ on:
     # * is a special character in YAML so you have to quote this string
     - cron: "0 0 * * *"
 jobs:
-  commit:
+  post:
     runs-on: ubuntu-18.04
     steps:
       - run: curl -X POST -d {} "https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_DAILY_HOOK }}?trigger_title=triggered+by+GitHub+Action+Daily"
