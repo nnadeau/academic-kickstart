@@ -42,7 +42,7 @@ Most important to this new structure are the daily micro yoga/workout sessions t
 These micro sessions are in addition to my regular workouts and were implemented as short breaks throughout the day.
 Think of it as a more active [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
 
-## Morning Energy Boost
+## Morning: Magic Ten Energy Boost
 
 When not in lockdown, you can often find me practicing yoga at [Luna Yoga](https://www.lunayoga.ca/) in Montréal.
 It is through this studio and our friend/teacher [Francesca Knowles](https://www.instagram.com/frankie.knowles/) that we learned of the [Jivamukti Magic Ten](https://jivamuktiyoga.com/jivamukti-magic-ten/): a set of ten simple yoga moves that can be done in about ten minutes.
@@ -64,7 +64,7 @@ As seen in a video below, the series of motions includes:
 
 {{< youtube fB6B9rQjEeU >}}
 
-## 7 Minute Desk Detox
+## Afternoon: 7 Minute Desk Detox
 
 Fitness apps are all the rage right now and I have been very impressed with the [Nike Training Club app](https://www.nike.com/ca/ntc-app), especially the fact that it's free.
 While there are many fun and intense routines, the most notable (IMHO) is the [`7-minute Total-Body Desk Detox workout`](https://ntc-go.nike.com/f/alcX0lgY).
@@ -74,3 +74,20 @@ The workout comprises of seven one-minute exercises that include shoulder and ch
 While the actual exercise routine video is only available through the NTC app, here's a demo from YouTube:
 
 {{< youtube Q5osVIyvszQ >}}
+
+## Night: Read!
+
+While I've always loved books, last year I set myself a goal of reading every night before bed as a relaxation method to wind my brain down after a busy day.
+This was especially important for my mental health, as I was in the final stages of my PhD and burning myself out with full-time work during the day and full-time thesis writing at night.
+
+I ended up setting my personal record of reading 34 books in one year.
+Moreover, I discovered that I fell asleep almost instantly after closing my book for the night.
+No more tossing and turning trying to fall asleep while my mind wanders and comes up with new ideas to ponder.
+I finally had an effective trick.
+
+Part of making this effort successful were the tools I used to make reading and consuming books simple: my [Kobo Aura H2O](https://us.kobobooks.com/products/kobo-aura-h2o-edition-2) connected to the [Libby app](https://www.overdrive.com/apps/libby/) linked to the [Montréal library](https://bibliomontreal.com/).
+This allows me to [check-out ebooks on the fly](https://bibliomontreal.overdrive.com/) to keep feeding my (healthy) habit.
+
+I've been on a sci-fi kick this year and my plan is to read as many [Hugo](https://en.wikipedia.org/wiki/Hugo_Award) and [Nebula](https://en.wikipedia.org/wiki/Nebula_Award) award winning books as possible.
+
+#COVIDgoals
