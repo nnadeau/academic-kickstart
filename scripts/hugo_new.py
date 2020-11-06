@@ -65,6 +65,9 @@ def _create_notebook(dir_path: Path):
     nb["cells"] = [nbf.v4.new_markdown_cell(meta)]
     nbf.write(nb, index_path.with_suffix(".ipynb"))
 
+    # delete markdown index (we only want notebook)
+    index_path.unlink()
+
 
 if __name__ == "__main__":
     # set logging
