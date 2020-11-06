@@ -53,6 +53,11 @@ def _create_notebook(dir_path: Path):
 
     # strip comments (they look bad in jupyter)
     meta = [m for m in meta if not m.startswith("#")]
+
+    # add newline to end to prevent ugly jupyter renders
+    meta.append("\n")
+
+    # join meta into text
     meta = "\n".join(meta)
 
     # create notebook
