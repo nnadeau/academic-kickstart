@@ -14,3 +14,4 @@ watchdog = "*"
 [packages]
 jupyter-contrib-nbextensions = "*"
 jupyterlab = "*"
+pipenv = "*"
