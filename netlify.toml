@@ -25,9 +25,4 @@ pretty_urls = true
 compress = true
 
 [context.deploy-preview]
-command = """"
-    pipenv run python --version && \
-    pipenv graph && \
-    make build && \
-    hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL
-"""
+command = "pipenv run python --version && pipenv graph && make build && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
