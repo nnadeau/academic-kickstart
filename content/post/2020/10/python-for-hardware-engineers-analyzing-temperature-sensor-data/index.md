@@ -1082,7 +1082,9 @@ ax.axhline(df["temperature"].mean(), c="C1", ls="--");
 ```
 
 
+    
 ![png](index_files/index_17_0.png)
+    
 
 
 As seen in the above plot, we want the sum of the time of the data above the dashed line (mean temperature). 
@@ -1410,7 +1412,9 @@ fig.savefig("my-output-path.pdf")
 ```
 
 
+    
 ![png](index_files/index_27_0.png)
+    
 
 
 #### Descriptive Statistics vs Time
@@ -1436,7 +1440,9 @@ fig.savefig("my-output-path.pdf")
 ```
 
 
+    
 ![png](index_files/index_29_0.png)
+    
 
 
 #### Humidity Heatmap by Time of Day
@@ -1472,7 +1478,9 @@ fig.savefig("my-output-path.pdf")
 ```
 
 
+    
 ![png](index_files/index_31_0.png)
+    
 
 
 ## Discussion

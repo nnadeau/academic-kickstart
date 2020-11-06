@@ -609,7 +609,9 @@ fig.tight_layout()
 ```
 
 
+    
 ![png](index_files/index_10_0.png)
+    
 
 
 It appears that I tend to be cyclical with my tweets.
@@ -643,7 +645,9 @@ fig.tight_layout()
 ```
 
 
+    
 ![png](index_files/index_12_0.png)
+    
 
 
 As expected, the number of interactions generally follows my tweeting frequency.
@@ -1371,7 +1375,9 @@ fig.tight_layout()
 ```
 
 
+    
 ![png](index_files/index_22_0.png)
+    
 
 
 Right away, we can see that the majority of outliers fall below a TFF ratio of 1.
@@ -1809,7 +1815,9 @@ fig.tight_layout()
 ```
 
 
+    
 ![png](index_files/index_27_0.png)
+    
 
 
 The vast majority of people I interact with are within the core grouping of less than 2k friends and 50k followers (i.e., a TFF ratio of 25).
