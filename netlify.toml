@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "make build"
 
 [build.environment]
 HUGO_VERSION = "0.66.0"
@@ -25,4 +25,4 @@ pretty_urls = true
 compress = true
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "make build && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
