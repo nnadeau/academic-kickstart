@@ -5,16 +5,16 @@ clean:
 	rm -rf public
 
 .PHONY: serve
-serve: clean
+serve:
 	hugo version
 	hugo serve --gc --minify
 
 .PHONY: serve-notebooks
-serve-notebooks: clean
+serve-notebooks: build-notebooks
 	pipenv run watchmedo tricks tricks.yaml
 
 .PHONY: serve-future
-serve-future: clean
+serve-future:
 	hugo version
 	hugo serve --gc --minify --buildFuture
 
