@@ -1,7 +1,6 @@
 tricks:
-    - watchdog.tricks.LoggerTrick:
-          patterns: ["*.ipynb"]
-    - watchdog.tricks.ShellCommandTrick:
-          patterns: ["*.ipynb"]
-          shell_command: "pipenv run python scripts/convert_notebooks.py ${watch_src_path}"
-          wait_for_process: true
+        - watchdog.tricks.ShellCommandTrick:
+                  patterns: ["*.ipynb"]
+                  ignore_patterns: ["*checkpoint.ipynb", "*~*"]
+                  shell_command: "pipenv run python scripts/convert_notebooks.py ${watch_src_path}"
+                  wait_for_process: true
