@@ -68,6 +68,17 @@ def _create_notebook(dir_path: Path):
     # delete markdown index (we only want notebook)
     index_path.unlink()
 
+    # create gitignore for just notebooks
+    ignored_files = [
+        "index.md",
+        "*_files/",
+        "\n",
+    ]
+    ignored_files = "\n".join(ignored_files)
+    gitignore_path = index_path.parent / ".gitignore"
+    with open(gitignore_path, "w") as f:
+        f.write(ignored_files)
+
 
 if __name__ == "__main__":
     # set logging
