@@ -9,7 +9,7 @@ matplotlib = "*"
 numpy = "*"
 pandas = "*"
 seaborn = "*"
-watchdog = "*"
+watchdog = {extras = ["watchmedo"], version = "*"}
 
 [packages]
 jupyter-contrib-nbextensions = "*"
