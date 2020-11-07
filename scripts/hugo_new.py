@@ -54,8 +54,12 @@ def _create_notebook(dir_path: Path):
     # strip comments (they look bad in jupyter)
     meta = [m for m in meta if not m.startswith("#")]
 
-    # add newline to end to prevent ugly jupyter renders
-    meta.append("\n")
+    # strip blanks
+    meta = [m for m in meta if m]
+
+    # add space between toml `---` and key-values
+    meta.insert(1, " ")
+    meta.insert(-1, " ")
 
     # join meta into text
     meta = "\n".join(meta)
