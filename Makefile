@@ -5,18 +5,29 @@ clean:
 	rm -rf public
 
 .PHONY: serve
-serve: clean
+serve:
 	hugo version
 	hugo serve --gc --minify
 
+.PHONY: serve-notebooks
+serve-notebooks: build-notebooks
+	pipenv run watchmedo tricks tricks.yaml
+
 .PHONY: serve-future
-serve-future: clean
+serve-future:
 	hugo version
 	hugo serve --gc --minify --buildFuture
 
-.PHONY: build
-build: clean
+.PHONY: build-hugo
+build-hugo:
 	hugo --gc --minify
+
+.PHONY: build-notebooks
+build-notebooks:
+	pipenv run python scripts/convert_notebooks.py
+
+.PHONY: build
+build: build-notebooks build-hugo
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # publications
@@ -34,27 +45,27 @@ format-publications:
 
 .PHONY: post
 post:
-	python3 scripts/hugo_new.py new post
+	pipenv run python scripts/hugo_new.py new post
 
 .PHONY: notebook
 notebook:
-	python3 scripts/hugo_new.py new post --notebook
+	pipenv run python scripts/hugo_new.py new post --notebook
 
 .PHONY: convert-notebooks
 convert-notebooks:
-	python3 scripts/convert_notebooks.py
+	pipenv run python scripts/convert_notebooks.py
 
 .PHONY: talk
 talk:
-	python3 scripts/hugo_new.py new talk
+	pipenv run python scripts/hugo_new.py new talk
 
 .PHONY: project
 project:
-	python3 scripts/hugo_new.py new project
+	pipenv run python scripts/hugo_new.py new project
 
 .PHONY: featured-image
 featured-image:
-	python3 scripts/featured_image.py create_image
+	pipenv run python scripts/featured_image.py create_image
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # web deployment

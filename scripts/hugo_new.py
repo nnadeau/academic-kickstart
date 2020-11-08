@@ -54,8 +54,12 @@ def _create_notebook(dir_path: Path):
     # strip comments (they look bad in jupyter)
     meta = [m for m in meta if not m.startswith("#")]
 
-    # add newline to end to prevent ugly jupyter renders
-    meta.append("\n")
+    # strip blanks
+    meta = [m for m in meta if m]
+
+    # add space between toml `---` and key-values
+    meta.insert(1, " ")
+    meta.insert(-1, " ")
 
     # join meta into text
     meta = "\n".join(meta)
@@ -67,6 +71,17 @@ def _create_notebook(dir_path: Path):
 
     # delete markdown index (we only want notebook)
     index_path.unlink()
+
+    # create gitignore for just notebooks
+    ignored_files = [
+        "index.md",
+        "*_files/",
+        "\n",
+    ]
+    ignored_files = "\n".join(ignored_files)
+    gitignore_path = index_path.parent / ".gitignore"
+    with open(gitignore_path, "w") as f:
+        f.write(ignored_files)
 
 
 if __name__ == "__main__":

@@ -17,16 +17,22 @@ def main(path: Optional[str] = None):
         paths = [p for p in paths if ".ipynb_checkpoints" not in str(p.resolve())]
         logging.info(f"Globbed {len(paths)} notebooks")
 
+    logging.info(f"Paths to convert: {paths}")
+
     # convert
     for p in paths:
-        logging.info(f"Exporting {p.relative_to(Path.cwd())}")
+        logging.info(f"Exporting {p}")
 
         args = ["jupyter", "nbconvert", p, "--to", "markdown"]
         subprocess.run(args)
 
         output = p.with_suffix(".md")
-        with open(output) as f:
-            text = f.read()
+        try:
+            with open(output) as f:
+                text = f.read()
+        except FileNotFoundError as e:
+            logging.error(e)
+            exit(1)
 
         text = text.replace('<table border="1"', "<table")
         with open(output, "w") as f:
