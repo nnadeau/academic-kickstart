@@ -12,15 +12,15 @@ authors:
 - Nicholas A. Nadeau
 tags: ["additive manufacturing", "3d printing", "filament", "mechanical", "test methods","coupons", "", "layer", "method", "properties", "shear", "strength", ""]
 categories: []
-date: '2020-11-16'
+date: '2020-11-17'
 lastmod: 2020-10-14T11:51:17-04:00
 featured: false
 draft: false
 
 url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
+url_pdf: 'https://amcoe.org/icam-2020'
+url_slides: 'https://amcoe.org/icam-2020'
+url_video: 'https://amcoe.org/icam-2020'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-11-16'
+publishDate: '2020-11-08'
 publication_types:
 - '1'
 abstract: 'The international community is exploring many potential end-uses for polymer additive manufacturing. However, significant issues must be addressed before broad application can occur, in particular understanding the relationships between materials, processes, and final part properties. Key to these issues is having reliable test methods to measure properties of interest.
@@ -48,3 +48,6 @@ This work investigated Fused Filament Fabrication using an AON-M2 industrial pri
 In assessing the effect of process on properties, choice of the basis of comparison, i.e. “maximum achievable property”, is important. While many researchers use injection molded properties, the authors believe this is misleading since the injection molding process itself affects properties. Instead, the authors investigated measurement of the polymer filament directly. New test methods for filament tension and shear were developed which provided very good CVs, and showed interesting relationships between “as printed” coupon properties and filament properties. The shear results show the “as printed” coupon layer-to-layer weld strength to be reduced approximately 10% from the filament strength. '
 publication: '*ASTM International Conference on Additive Manufacturing*'
 ---
+
+
+Presented by [Richard G. Cole](https://www.linkedin.com/in/rick-cole-59354b22/) ([National Research Council Canada](https://nrc.canada.ca/en)), in collaboration with [Kazem Fayazbakhsh](https://www.ryerson.ca/aerospace/people/faculty/kazem-fayazbakhsh/) ([Ryerson University](https://www.ryerson.ca/)), [Abraham Avalos](https://www.linkedin.com/in/abraham-avalos-94315951/) ([AON3D](https://www.aon3d.com/)), and [Nicholas Nadeau]({{< ref "/" >}}) ([AON3D](https://www.aon3d.com/)), as part of the `Polymers and Polymer Matrix Composites in Additive Manufacturing` session at the [ASTM International Conference on Additive Manufacturing (ASTM ICAM 2020)](https://amcoe.org/icam-2020).
