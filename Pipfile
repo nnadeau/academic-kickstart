@@ -8,3 +8,6 @@ jupyter-contrib-nbextensions = "*"
 jupyterlab = "*"
 pipenv = "*"
 importlib-metadata = "*"
+
+[requires]
+python_version = "3.7"
