@@ -20,7 +20,7 @@ draft: false
 url_code: ''
 url_pdf: 'https://amcoe.org/icam-2020'
 url_slides: 'https://amcoe.org/icam-2020'
-url_video: 'https://amcoe.org/icam-2020'
+url_video: 'https://player.vimeo.com/video/473810622'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
