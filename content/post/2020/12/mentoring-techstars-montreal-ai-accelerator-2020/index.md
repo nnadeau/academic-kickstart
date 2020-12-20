@@ -35,6 +35,8 @@ The big finale of the accelerator program is Demo Day, where the public and inve
 
 {{< vimeo 485487146 >}}
 
+{{< youtube 1auXKN2n1cc >}}
+
 ## Bridgr and Being a Lead Mentoring
 
 I also take pride in the fact that I was a [lead mentor](https://www.techstars.com/the-line/advice/mentor-manifesto) for [Bridgr](https://bridgr.co/), an algorithmic advisory practice that guides industrial companies through their digital journey.
