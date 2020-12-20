@@ -11,3 +11,6 @@ importlib-metadata = "*"
 
 [requires]
 python_version = "3.7"
+
+[dev-packages]
+fire = "*"
