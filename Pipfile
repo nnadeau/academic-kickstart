@@ -8,9 +8,7 @@ jupyter-contrib-nbextensions = "*"
 jupyterlab = "*"
 pipenv = "*"
 importlib-metadata = "*"
+fire = "*"
 
 [requires]
 python_version = "3.7"
-
-[dev-packages]
-fire = "*"
