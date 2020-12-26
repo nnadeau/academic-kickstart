@@ -4,7 +4,7 @@
 title: "Labell"
 summary: "Simple, static keywords extractor webapp using NLP + React + webpack"
 authors: []
-tags: ["extractor", "keywords", "nlp", "js", "javascript", "react","web", "webapp", "webpack"]
+tags: ["extractor", "keywords", "nlp", "js", "javascript", "react","web", "webapp", "webpack",software,data]
 categories: []
 date: 2020-08-23T19:35:06-04:00
 

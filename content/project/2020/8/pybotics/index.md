@@ -4,7 +4,7 @@
 title: "Pybotics"
 summary: "The Python Toolbox for Robotics"
 authors: []
-tags: [robotics, robot, math, mathematics, kinematics, inverse-kinematics, numpy, scipy, python-toolbox, python, pypi, research, calibration, dynamics, trajectory, impedance-control, doi]
+tags: [robotics, robot, math, mathematics, kinematics, inverse-kinematics, numpy, scipy, python-toolbox, python, pypi, research, calibration, dynamics, trajectory, impedance-control, doi,software,ml]
 categories: []
 date: 2020-08-23T10:33:04-04:00
 

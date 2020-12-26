@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Robotiq Ft Sensor Java"
+title: "Robotiq FT Sensor Java"
 summary: "An unofficial Java package for cross-platform serial communication with a Robotiq FT Sensor"
 authors: []
-tags: ["communication", "robotiq", "gradle", "java", "robotics", "robot", "sensor", "force", "electronics"]
+tags: ["communication", "robotiq", "gradle", "java", "robotics", "robot", "sensor", "force", "electronics",hardware,software]
 categories: []
 date: 2020-08-23T19:48:07-04:00
 

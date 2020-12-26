@@ -4,7 +4,7 @@
 title: "Personal Site"
 summary: "Personal website, portfolio, and blog built using the Jamstack"
 authors: []
-tags: ["bib", "blog", "hugo", "markdown", "portfolio", "website","web"]
+tags: ["bib", "blog", "hugo", "markdown", "portfolio", "website","web",software]
 categories: []
 date: 2020-08-23T11:15:27-04:00
 

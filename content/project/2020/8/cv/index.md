@@ -4,7 +4,7 @@
 title: "CV"
 summary: "LaTeX + GitHub Actions + Jamstack automated professional CV"
 authors: []
-tags: ["github-actions", "github", "jamstack", "latex", "topics","web"]
+tags: ["github-actions", "github", "jamstack", "latex", "topics","web",software]
 categories: []
 date: 2020-08-23T19:06:54-04:00
 
