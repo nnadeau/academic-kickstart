@@ -26,20 +26,24 @@ subtitle = ""
     tag = "*"
 
   [[content.filter_button]]
-    name = "Python"
-    tag = "python"
+    name = "Hardware"
+    tag = "hardware"
 
   [[content.filter_button]]
-    name = "Java"
-    tag = "java"
+    name = "Software"
+    tag = "software"
+
+  [[content.filter_button]]
+    name = "R&D"
+    tag = "research"
+
+  [[content.filter_button]]
+    name = "Medical"
+    tag = "medical"
 
   [[content.filter_button]]
     name = "Robotics"
     tag = "robotics"
-
-  [[content.filter_button]]
-    name = "Web"
-    tag = "web"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
