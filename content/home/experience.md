@@ -18,6 +18,17 @@ date_format = "2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Project Lead"
+  company = "Halodi Robotics"
+  company_url = "https://www.halodi.com"
+  location = "Montréal/Oslo"
+  date_start = "2021-02-01"
+  date_end = ""
+  description = """
+  <img style="width:256px" src="img/logo-halodi.png" alt="Halodi Robotics Logo"/>
+  """
+
+[[experience]]
   title = "Mentor"
   company = "Techstars Montréal AI"
   company_url = "https://www.techstars.com/accelerators/montreal-ai"
