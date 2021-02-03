@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Engineering Manager"
+role = "Project Lead"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "AON3D", url = "https://www.aon3d.com/" } ]
+organizations = [ { name = "Halodi Robotics", url = "https://www.halodi.com/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -105,9 +105,9 @@ email = ""
 
 <!-- make sure "description" in config/_default/params.toml is also updated -->
 
-Nicholas Nadeau is an executive and the head of engineering at [AON3D](https://www.aon3d.com/) where he leads design, development, and R&D in both software and hardware to drive product innovation.
+Nicholas Nadeau is an executive and project lead at [Halodi Robotics](https://www.halodi.com/), leading their expansion into North America with the mission of bringing safe and capable humanoid robotics to everyone.
 
 He is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ).
 Nicholas received his Ph.D. from [École de technologie supérieure](http://en.etsmtl.ca/Unites-de-recherche/CoRo/Accueil?lang=en-CA) where his research combined [machine learning]({{< ref "publication/nadeau-2018-evolutionary" >}}) and [collaborative robotics]({{< ref "publication/nadeau-2019-impedance" >}}) to develop methods for [safe robotic freehand medical ultrasound]({{< ref "publication/nadeau-2019-towards" >}}).
 
-Nicholas has spent the last decade creating unique technologies for the [biomedical, cognitive neuroscience](https://www.rogue-research.com/), [robotics](https://www.ypc-technologies.com/), and [additive manufacturing domains](https://www.aon3d.com/).
+Nicholas has spent the last decade creating unique technologies for the [biomedical, cognitive neuroscience](https://www.rogue-research.com/), [food robotics](https://www.ypc-technologies.com/), [collaborative robotics](https://www.halodi.com/), and [additive manufacturing](https://www.aon3d.com/) domains.
