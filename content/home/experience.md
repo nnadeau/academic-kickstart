@@ -56,7 +56,7 @@ date_format = "2006"
   company_url = "https://aon3d.com/"
   location = "Montréal"
   date_start = "2019-02-01"
-  date_end = ""
+  date_end = "2021-01-15"
   description = """
   <img style="width:256px" src="img/logo-aon.png" alt="AON3D Logo"/>
   """
