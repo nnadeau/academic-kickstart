@@ -29,6 +29,17 @@ date_format = "2006"
   """
 
 [[experience]]
+  title = "Advisor"
+  company = "BRIDGR"
+  company_url = "https://bridgr.co"
+  location = "Montréal"
+  date_start = "2020-09-10"
+  date_end = ""
+  description = """
+  <img style="width:256px" src="img/logo-bridgr.png" alt="BRIDGR Logo"/>
+  """
+
+[[experience]]
   title = "Mentor"
   company = "Techstars Montréal AI"
   company_url = "https://www.techstars.com/accelerators/montreal-ai"
