@@ -59,5 +59,5 @@ height = ""
   cta_label = "Schedule Now"
   cta_url = "#contact"
   cta_icon_pack = "fas"
-  cta_icon = "rocket"
+  cta_icon = "calendar-alt"
 +++
