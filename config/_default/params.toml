@@ -45,11 +45,11 @@ org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = """
-Nicholas Nadeau is an executive and the head of engineering at AON3D where he leads design, development, and R&D in both software and hardware to drive product innovation.
+Nicholas Nadeau is an executive and project lead at Halodi Robotics, leading their expansion into North America with the mission of bringing safe and capable humanoid robotics to everyone.
 
 He is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ). Nicholas received his Ph.D. from École de technologie supérieure where his research combined machine learning and collaborative robotics to develop methods for safe robotic freehand medical ultrasound.
 
-Nicholas has spent the last decade creating unique technologies for the biomedical, cognitive neuroscience, robotics, and additive manufacturing domains.
+Nicholas has spent the last decade creating unique technologies for the biomedical, food robotics, collaborative robotics, and additive manufacturing domains.
 """
 
 ############################
