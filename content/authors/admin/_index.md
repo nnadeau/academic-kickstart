@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Project Lead"
+role = "Project Director"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -105,7 +105,7 @@ email = ""
 
 <!-- make sure "description" in config/_default/params.toml is also updated -->
 
-Nicholas Nadeau is an executive and project lead at [Halodi Robotics](https://www.halodi.com/), leading their expansion into North America with the mission of bringing safe and capable humanoid robotics to everyone.
+Nicholas Nadeau is an executive and project director at [Halodi Robotics](https://www.halodi.com/), leading their expansion into North America with the mission of bringing safe and capable humanoid robotics to everyone.
 
 He is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ).
 Nicholas received his Ph.D. from [École de technologie supérieure](http://en.etsmtl.ca/Unites-de-recherche/CoRo/Accueil?lang=en-CA) where his research combined [machine learning]({{< ref "publication/nadeau-2018-evolutionary" >}}) and [collaborative robotics]({{< ref "publication/nadeau-2019-impedance" >}}) to develop methods for [safe robotic freehand medical ultrasound]({{< ref "publication/nadeau-2019-towards" >}}).

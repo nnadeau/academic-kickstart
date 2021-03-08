@@ -45,7 +45,7 @@ org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = """
-Nicholas Nadeau is an executive and project lead at Halodi Robotics, leading their expansion into North America with the mission of bringing safe and capable humanoid robotics to everyone.
+Nicholas Nadeau is an executive and project director at Halodi Robotics, leading their expansion into North America with the mission of bringing safe and capable humanoid robotics to everyone.
 
 He is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ). Nicholas received his Ph.D. from École de technologie supérieure where his research combined machine learning and collaborative robotics to develop methods for safe robotic freehand medical ultrasound.
 
